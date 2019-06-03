@@ -1,0 +1,517 @@
+<?xml version="1.0" ?>
+<config>
+	<AstraMilitarum>
+		<Baneblade>
+			<responses
+			attack=" GuardBanebladeAttack1003030,GuardBanebladeAttack1003031 ,GuardBanebladeAttack1003032,GuardBanebladeAttack1003033,GuardBanebladeAttack1003034,GuardBanebladeAttack1003050,GuardBanebladeAttack1003051"
+			move="GuardBanebladeMove1003020,GuardBanebladeMove1003021,GuardBanebladeMove1003022,GuardBanebladeMove1003023,GuardBanebladeMove1003024"
+			productionCompleted=""
+			select="GuardBanebladeSelection1003010,GuardBanebladeSelection1003011,GuardBanebladeSelection1003012,GuardBanebladeSelection1003013,GuardBanebladeSelection1003014"/>
+		</Baneblade>
+		<Basilisk>
+			<responses
+			attack="GuardBasiliskAbilityEarth_shaker1002940,GuardBasiliskAbilityEarth_shaker1002941,GuardBasiliskAttack1002930,GuardBasiliskAttack1002931,GuardBasiliskAttack1002932,GuardBasiliskAttack1002933"
+			move="GuardBasiliskMove1002510,GuardBasiliskMove1002511,GuardBasiliskMove1002512,GuardBasiliskMove1002513,GuardBasiliskMove1002920,GuardBasiliskMove1002921"
+			productionCompleted=""
+			select="GuardBasiliskSelection1002500,GuardBasiliskSelection1002501,GuardBasiliskSelection1002502,GuardBasiliskSelection1002503,GuardBasiliskSelection1002910,GuardBasiliskSelection1002911"/>
+		</Basilisk>
+		<Bullgryn>
+			<responses
+			attack="GuardOgrynAttack1001830,GuardOgrynAttack1001831,GuardOgrynAttack1001832,GuardOgrynAttack1001833,GuardOgrynAttack1001834,GuardOgrynAttack1001920,GuardOgrynAttack1001921,GuardOgrynCharge1001930,GuardOgrynCharge1001931,GuardOgrynCharge1001932,GuardOgrynCharge1001933,GuardOgrynCombat1001893,GuardOgrynCombat1001894"
+			move="GuardOgrynMove1001820,GuardOgrynMove1001821,GuardOgrynMove1001822,GuardOgrynMove1001823,GuardOgrynMove1001824"
+			productionCompleted=""
+			select="GuardOgrynSelection1001810,GuardOgrynSelection1001811,GuardOgrynSelection1001812,GuardOgrynSelection1001813,GuardOgrynSelection1001814"/>
+		</Bullgryn>
+		<Guardsman>
+			<responses attack="GuardSharedAttack1001221,GuardSharedAttack1001220,GuardSharedAttack1001134,GuardSharedAttack1001133,GuardSharedAttack1001132,GuardSharedAttack1001131,GuardSharedAttack1001130,GuardSharedCombat1001192,GuardSharedCombat1001193"
+			move="GuardSharedMove1001120,GuardSharedMove1001121,GuardSharedMove1001122,GuardSharedMove1001123,GuardSharedMove1001124"
+			productionCompleted=""
+			select="GuardSharedSelection1001110,GuardSharedSelection1001111,GuardSharedSelection1001112,GuardSharedSelection1001113,GuardSharedSelection1001114"/>
+		</Guardsman>
+		<Headquarters>
+			<responses attack="" move="" productionCompleted="" select="GuardBuildingsHqselection"/>
+		</Headquarters>
+		<HeavyWeaponsSquad>
+			<responses
+			attack="GuardHeavy_weapons_platoonAttack1060020,GuardHeavy_weapons_platoonAttack1060021,GuardHeavy_weapons_platoonAttack1060022,GuardHeavy_weapons_platoonAttack1060023,GuardHeavy_weapons_platoonAttack1060024,GuardHeavy_weapons_platoonCharge1060030,GuardHeavy_weapons_platoonCharge1060031,GuardHeavy_weapons_platoonCombat1060040,GuardHeavy_weapons_platoonCombat1060041,GuardHeavy_weapons_platoonCombat1060042,GuardHeavy_weapons_platoonCombat1060043,GuardHeavy_weapons_platoonCombat1060044"
+			move="GuardHeavy_weapons_platoonMove1060070,GuardHeavy_weapons_platoonMove1060071,GuardHeavy_weapons_platoonMove1060072,GuardHeavy_weapons_platoonMove1060073,GuardHeavy_weapons_platoonMove1060074"
+			productionCompleted=""
+			select="GuardHeavy_weapons_platoonSelection1060080,GuardHeavy_weapons_platoonSelection1060081,GuardHeavy_weapons_platoonSelection1060082,GuardHeavy_weapons_platoonSelection1060083,GuardHeavy_weapons_platoonSelection1060084"/>
+		</HeavyWeaponsSquad>
+		<Hydra>
+			<responses attack="GuardChimeraAttack1002520,GuardChimeraAttack1002521,GuardChimeraAttack1002522,GuardChimeraAttack1002523,GuardChimeraAttack1002630,GuardChimeraAttack1002631"
+			move="GuardChimeraMove1002510,GuardChimeraMove1002511,GuardChimeraMove1002512,GuardChimeraMove1002513,GuardChimeraMove1002620,GuardChimeraMove1002621"
+			productionCompleted=""
+			select="GuardChimeraSelection1002500,GuardChimeraSelection1002501,GuardChimeraSelection1002502,GuardChimeraSelection1002503,GuardChimeraSelection1002610,GuardChimeraSelection1002611"/>
+		</Hydra>
+		<ImperialStrongpoint>
+			<responses attack="" move="" productionCompleted="" select="GuardBuildingsTurretselection"/>
+		</ImperialStrongpoint>
+		<LemanRussBattleTank>
+			<responses
+			attack="GuardLeman_russAttack1002520,GuardLeman_russAttack1002521,GuardLeman_russAttack1002522,GuardLeman_russAttack1002523,GuardLeman_russAttack1002830,GuardLeman_russAttack1002831,GuardLeman_russAttack1002840,GuardLeman_russAttack1002841"
+			move="GuardLeman_russMove1002510,GuardLeman_russMove1002511,GuardLeman_russMove1002512,GuardLeman_russMove1002513,GuardLeman_russMove1002820,GuardLeman_russMove1002821"
+			productionCompleted=""
+			select="GuardLeman_russSelection1002500,GuardLeman_russSelection1002501,GuardLeman_russSelection1002502,GuardLeman_russSelection1002503,GuardLeman_russSelection1002810,GuardLeman_russSelection1002811"/>
+		</LemanRussBattleTank>
+		<LordCommissar>
+			<responses 
+			attack="GuardCommissarAttack1000230,GuardCommissarAttack1000231,GuardCommissarAttack1000232,GuardCommissarAttack1000233,GuardCommissarCharge1000330,GuardCommissarCharge1000331,GuardCommissarCombat1000290,GuardCommissarCombat1000291,GuardCommissarCombat1000292" 
+			move="GuardCommissarMove1000220,GuardCommissarMove1000221,GuardCommissarMove1000222,GuardCommissarMove1000223,GuardCommissarMove1000224" 
+			productionCompleted="" 
+			select="GuardCommissarSelection1000210,GuardCommissarSelection1000211,GuardCommissarSelection1000212,GuardCommissarSelection1000213"/>
+		</LordCommissar>
+		<MarauderBomber>
+			<responses attack="GuardMarauderAttack5000166,GuardMarauderAttack5000167,GuardMarauderAttack5000168,GuardMarauderAttack5000169,GuardMarauderAttack5000170,GuardMarauderBomb5000171,GuardMarauderBomb5000172,GuardMarauderBomb5000173"
+			move="GuardMarauderMove5000174,GuardMarauderMove5000175,GuardMarauderMove5000176,GuardMarauderMove5000177,GuardMarauderMove5000178,GuardMarauderMove5000179"
+			productionCompleted=""
+			select="GuardMarauderSelection5000180,GuardMarauderSelection5000181,GuardMarauderSelection5000182,GuardMarauderSelection5000183,GuardMarauderUnit_complete5000184"/>
+		</MarauderBomber>
+		<PrimarisPsyker>
+			<responses attack="GuardPsykerAttack1000630,GuardPsykerAttack1000631,GuardPsykerAttack1000632,GuardPsykerAttack1000633,GuardPsykerCharge1000730,GuardPsykerCharge1000731"
+			move="GuardPsykerMove1000621,GuardPsykerMove1000622,GuardPsykerMove1000623,GuardPsykerMove1000624"
+			productionCompleted=""
+			select="GuardPsykerSelection1000610,GuardPsykerSelection1000611,GuardPsykerSelection1000612,GuardPsykerSelection1000613,GuardPsykerSelection1000620"/>
+		</PrimarisPsyker>
+		<ScoutSentinel>
+			<responses
+			attack="GuardSentinelAttack1002520,GuardSentinelAttack1002521,GuardSentinelAttack1002522,GuardSentinelAttack1002523,GuardSentinelAttack1002560,GuardSentinelAttack1002561"
+			move="GuardSentinelMove1002510,GuardSentinelMove1002511,GuardSentinelMove1002512,GuardSentinelMove1002513,GuardSentinelMove1002550,GuardSentinelMove1002551"
+			productionCompleted=""
+			select="GuardSentinelSelection1002500,GuardSentinelSelection1002501,GuardSentinelSelection1002502,GuardSentinelSelection1002503,GuardSentinelSelection1002540,GuardSentinelSelection1002541"/>
+		</ScoutSentinel>
+		<TankCommander>
+			<responses attack="GuardCaptainAttack1000020,GuardCaptainAttack1000021,GuardCaptainAttack1000022,GuardCaptainAttack1000023,GuardCaptainCharge1000190,GuardCaptainCharge1000191,GuardCaptainCharge1000192,GuardCaptainCombat1000080,GuardCaptainCombat1000081,GuardCaptainCombat1000082,GuardCaptainCombat1000083"
+			move="GuardCaptainMove1000010,GuardCaptainMove1000011,GuardCaptainMove1000012,GuardCaptainMove1000013,GuardCaptainMove1000014"
+			productionCompleted=""
+			select="GuardCaptainSelection1000002,GuardCaptainSelection1000003,GuardCaptainSelection1000004,GuardCaptainSelection1000005,GuardCaptainSelection1000006"/>
+		</TankCommander>
+		<TechpriestEnginseer>
+			<responses attack="GuardEnginseerAttack1000930,GuardEnginseerAttack1000931,GuardEnginseerAttack1000932,GuardEnginseerCharge1001010,GuardEnginseerCharge1001011,GuardEnginseerCombat1000990,GuardEnginseerCombat1000991,GuardEnginseerCombat1000992"
+			move="GuardEnginseerMove1000920,GuardEnginseerMove1000921,GuardEnginseerMove1000922,GuardEnginseerMove1000923,GuardEnginseerMove1000924"
+			productionCompleted=""
+			select="GuardEnginseerSelection1000910,GuardEnginseerSelection1000911,GuardEnginseerSelection1000912,GuardEnginseerSelection1000913"/>
+		</TechpriestEnginseer>
+		<TempestusScion>
+			<responses attack="GuardKasrkinAttack1002140,GuardKasrkinAttack1002141,GuardKasrkinAttack1002142,GuardKasrkinAttack1002143,GuardKasrkinAttack1002144,GuardKasrkinCharge1002240,GuardKasrkinCharge1002241,GuardKasrkinCharge1002242,GuardKasrkinCharge1002243,GuardKasrkinCombat1002200,GuardKasrkinCombat1002201,GuardKasrkinCombat1002202,GuardKasrkinCombat1002203,GuardKasrkinCombat1002204"
+			move="GuardKasrkinMove1002130,GuardKasrkinMove1002131,GuardKasrkinMove1002132,GuardKasrkinMove1002133,GuardKasrkinMove1002134"
+			productionCompleted=""
+			select="GuardKasrkinSelection1002120,GuardKasrkinSelection1002121,GuardKasrkinSelection1002122,GuardKasrkinSelection1002123,GuardKasrkinSelection1002124"/>
+		</TempestusScion>
+		<Thunderbolt>
+			<responses attack="GuardMarauderAttack5000167,GuardMarauderAttack5000169,GuardMarauderAttack5000170"
+			move="GuardMarauderMove5000174,GuardMarauderMove5000175,GuardMarauderMove5000176"
+			productionCompleted=""
+			select="GuardMarauderSelection5000181,GuardMarauderSelection5000183"/>
+		</Thunderbolt>
+		<Valkyrie>
+			<responses attack="GuardMarauderAttack5000167,GuardMarauderAttack5000169,GuardMarauderAttack5000170"
+			move="GuardMarauderMove5000174,GuardMarauderMove5000175,GuardMarauderMove5000176"
+			productionCompleted=""
+			select="GuardMarauderSelection5000181,GuardMarauderSelection5000183"/>
+		</Valkyrie>
+		<WyrdvanePsyker>
+			<responses attack="GuardPsykerAttack1000630,GuardPsykerAttack1000631,GuardPsykerAttack1000632,GuardPsykerAttack1000633,GuardPsykerCharge1000730,GuardPsykerCharge1000731"
+			move="GuardPsykerMove1000621,GuardPsykerMove1000622,GuardPsykerMove1000623,GuardPsykerMove1000624"
+			productionCompleted=""
+			select="GuardPsykerSelection1000610,GuardPsykerSelection1000611,GuardPsykerSelection1000612,GuardPsykerSelection1000613,GuardPsykerSelection1000620"/>
+		</WyrdvanePsyker>
+	</AstraMilitarum>
+	<Necrons>
+		<AnnihilationBarge>
+			<responses attack="NecronDestroyerAttackselect_01,NecronDestroyerCombatselect_42,NecronDestroyerUnder_fireselect_49,NecronDestroyerChargeselect_02"
+			move="NecronDestroyerMoraleselect_44,NecronDestroyerMoveselect_71,NecronDestroyerUnit_completeselect_67"
+			productionCompleted=""
+			select="NecronDestroyerLoadtransportselect_34,NecronDestroyerMorale_restoredselect_43,NecronDestroyerSelectionselection,NecronDestroyerUnloadtransportselect_34"/>
+		</AnnihilationBarge>
+		<CanoptekScarab>
+			<responses attack="NecronScarabAttackselect_02_3,NecronScarabChargeselect_03_2,NecronScarabSelectionselection"
+			move="NecronScarabMoveselect_60,NecronScarabUnder_fireselect_59,NecronScarabUnit_completeselect_48,NecronScarabMoraleselect_15"
+			productionCompleted=""
+			select="NecronScarabCombatselect_08,NecronScarabMorale_restoredselect_59,NecronScarabMoraleselect_15"/>
+		</CanoptekScarab>
+		<CanoptekSpyder>
+			<responses attack="NecronTomb_spyderAttackselect_53,NecronTomb_spyderChargeselect_35"
+			move="NecronTomb_spyderCombatselect_20,NecronTomb_spyderMorale_restoredselect_19,NecronTomb_spyderMoraleselect_17,NecronTomb_spyderMoveselect_45"
+			productionCompleted=""
+			select="NecronTomb_spyderSelectionselection,NecronTomb_spyderUnder_fireselect_14,NecronTomb_spyderUnit_completeselect_71"/>
+		</CanoptekSpyder>
+		<Cryptek>
+			<responses attack="NecronLordAttackselect_66,NecronLordChargeselect_73,NecronLordCombatselect_16"
+			move="NecronLordMoveselect_61,NecronLordUnder_fireselect_05,NecronLordUnit_completeselect_01"
+			productionCompleted=""
+			select="NecronLordMoraleselect_07,NecronLordSelectionselection,NecronLordUnder_fireselect_05,NecronLordUnit_completeselect_01"/>
+		</Cryptek>
+		<DestroyerLord>
+			<responses attack="NecronLord_destroyerAttackselect_01,NecronLord_destroyerChargeselect_02,NecronLord_destroyerCombatselect_37"
+			move="NecronLord_destroyerMoveselect_43,NecronLord_destroyerSelectionselection,NecronLord_destroyerUnit_completeselect_68"
+			productionCompleted=""
+			select="NecronLord_destroyerMorale_restoredselect_44,NecronLord_destroyerMoraleselect_42,NecronLord_destroyerUnder_fireselect_71"/>
+		</DestroyerLord>
+		<DoomScythe>
+			<responses attack="NecronWraithAttackselect_64,NecronWraithChargeselect_22,NecronWraithCombatselect_02"
+			move="NecronWraithMoveselect_68,NecronWraithSelectionselection,NecronWraithUnder_fireselect_55"
+			productionCompleted=""
+			select="NecronWraithMorale_restoredselect_35,NecronWraithMoraleselect_08,NecronWraithUnit_completeselect_49"/>
+		</DoomScythe>
+		<DoomsdayArk>
+			<responses attack="NecronDestroyerAttackselect_01,NecronDestroyerCombatselect_42,NecronDestroyerUnder_fireselect_49"
+			move="NecronDestroyerMoraleselect_44,NecronDestroyerMoveselect_71,NecronDestroyerUnit_completeselect_67"
+			productionCompleted=""
+			select="NecronDestroyerLoadtransportselect_34,NecronDestroyerMorale_restoredselect_43,NecronDestroyerSelectionselection,NecronDestroyerUnloadtransportselect_34"/>
+		</DoomsdayArk>
+		<Headquarters>
+			<responses attack="" move="" productionCompleted="" select="NecronBuildingsMonolithselection"/>
+		</Headquarters>
+		<HeavyDestroyer>
+			<responses attack="NecronHeavy_destroyerAttackselect_54,NecronHeavy_destroyerChargeselect_42,NecronHeavy_destroyerCombatselect_41,NecronHeavy_destroyerUnder_fireselect_55"
+			move="NecronHeavy_destroyerMoraleselect_20,NecronHeavy_destroyerMoveselect_57,NecronHeavy_destroyerUnit_completeselect_45"
+			productionCompleted=""
+			select="NecronHeavy_destroyerMorale_restoredselect_19,NecronHeavy_destroyerSelectionselection,NecronHeavy_destroyerUnit_completeselect_45"/>
+		</HeavyDestroyer>
+		<Immortal>
+			<responses attack="NecronImmortalAttackselect_50,NecronImmortalChargeselect_33,NecronImmortalCombatselect_26,NecronImmortalUnder_fireselect_64"
+			move="NecronImmortalMoraleselect_27,NecronImmortalMoveselect_25,NecronImmortalUnit_completeselect_59"
+			productionCompleted=""
+			select="NecronImmortalLoadtransportselect_34,NecronImmortalMorale_restoredselect_34,NecronImmortalSelectionselection,NecronImmortalUnloadtransportselect_34"/>
+		</Immortal>
+		<Lord>
+			<responses attack="NecronLordAttackselect_66,NecronLordChargeselect_73,NecronLordCombatselect_16"
+			move="NecronLordMoveselect_61,NecronLordUnder_fireselect_05,NecronLordUnit_completeselect_01"
+			productionCompleted=""
+			select="NecronLordMoraleselect_07,NecronLordSelectionselection,NecronLordUnder_fireselect_05,NecronLordUnit_completeselect_01"/>
+		</Lord>
+		<Monolith>
+			<responses attack="NecronBuildingsEnergy_coreselection,NecronBuildingsTurretselection"
+			move="NecronBuildingsForbidden_archiveselection,NecronBuildingsGreater_summoning_coreselection,NecronBuildingsPlasma_generatorselection,NecronBuildingsSummoning_coreselection"
+			productionCompleted=""
+			select="NecronBuildingsListening_postselection,NecronBuildingsMonolithselection,NecronBuildingsThermoplasma_generatorselection,NecronRestored_monolithSelectionselection"/>
+		</Monolith>
+		<NightScythe>
+			<responses attack="NecronWraithAttackselect_64,NecronWraithChargeselect_22,NecronWraithCombatselect_02"
+			move="NecronWraithMoveselect_68,NecronWraithSelectionselection,NecronWraithUnder_fireselect_55"
+			productionCompleted=""
+			select="NecronWraithMorale_restoredselect_35,NecronWraithMoraleselect_08,NecronWraithUnit_completeselect_49"/>
+		</NightScythe>
+		<Obelisk>
+			<responses attack="NecronBuildingsEnergy_coreselection,NecronBuildingsTurretselection"
+			move="NecronBuildingsForbidden_archiveselection,NecronBuildingsGreater_summoning_coreselection,NecronBuildingsPlasma_generatorselection,NecronBuildingsSummoning_coreselection"
+			productionCompleted=""
+			select="NecronBuildingsListening_postselection,NecronBuildingsMonolithselection,NecronBuildingsThermoplasma_generatorselection,NecronRestored_monolithSelectionselection"/>
+		</Obelisk>
+		<TesseractVault>
+			<responses attack="NecronNight_bringerAttackselect_04,NecronNight_bringerChargeselect_05,NecronNight_bringerCombatselect_06"
+			move="NecronNight_bringerMoveselect_63,NecronNight_bringerSelectionselection,NecronNight_bringerUnder_fireselect_61"
+			productionCompleted=""
+			select="NecronNight_bringerMorale_restoredselect_16,NecronNight_bringerMoraleselect_07,NecronNight_bringerUnit_completeselect_58"/>
+		</TesseractVault>
+		<TombBlade>
+			<responses attack="NecronBuilder_scarabSelectionselection,NecronBuilder_scarabUnit_completeselect_22"
+			move="NecronBuilder_scarabMoraleselect_08,NecronBuilder_scarabMoveselect_10"
+			productionCompleted=""
+			select="NecronBuilder_scarabMorale_restoredselect_15,NecronBuilder_scarabStrategic_point_captureselect_21,NecronBuilder_scarabUnder_fireselect_15"/>
+		</TombBlade>
+		<TranscendentCtan>
+			<responses attack="NecronNight_bringerAttackselect_04,NecronNight_bringerChargeselect_05,NecronNight_bringerCombatselect_06"
+			move="NecronNight_bringerMoveselect_63,NecronNight_bringerSelectionselection,NecronNight_bringerUnder_fireselect_61"
+			productionCompleted=""
+			select="NecronNight_bringerMorale_restoredselect_16,NecronNight_bringerMoraleselect_07,NecronNight_bringerUnit_completeselect_58"/>
+		</TranscendentCtan>
+		<TriarchPraetorian>
+			<responses attack="NecronPariahAttackselect_05,NecronPariahChargeselect_19,NecronPariahCombatselect_20"
+			move="NecronPariahMoveselect_25,NecronPariahUnder_fireselect_26,NecronPariahUnit_completeselect_13"
+			productionCompleted=""
+			select="NecronPariahMorale_restoredselect_23,NecronPariahMoraleselect_22,NecronPariahSelectionselection"/>
+		</TriarchPraetorian>
+		<TriarchStalker>
+			<responses attack="NecronBuilder_scarabSelectionselection,NecronBuilder_scarabUnit_completeselect_22"
+			move="NecronBuilder_scarabMoraleselect_08,NecronBuilder_scarabMoveselect_10"
+			productionCompleted=""
+			select="NecronBuilder_scarabMorale_restoredselect_15,NecronBuilder_scarabStrategic_point_captureselect_21,NecronBuilder_scarabUnder_fireselect_15"/>
+		</TriarchStalker>
+		<Warrior>
+			<responses attack="NecronBasic_warriorAttackselect_34,NecronBasic_warriorChargeselect_33,NecronBasic_warriorCombatselect_25"
+			move="NecronBasic_warriorMorale_restoredselect_21,NecronBasic_warriorMoraleselect_22,NecronBasic_warriorMoveselect_50"
+			productionCompleted=""
+			select="NecronBasic_warriorSelectionselection,NecronBasic_warriorUnder_fireselect_51,NecronBasic_warriorUnit_completeselect_60"/>
+		</Warrior>
+	</Necrons>
+	<Neutral>
+		<Ambull>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Ambull>
+		<CatachanDevil>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</CatachanDevil>
+		<CatachanDevilLair>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</CatachanDevilLair>
+		<Enslaver>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Enslaver>
+		<KastelanRobot>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</KastelanRobot>
+		<KrootHound>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</KrootHound>
+		<LordOfSkulls>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</LordOfSkulls>
+		<NeophyteHybrid>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</NeophyteHybrid>
+		<Psychneuein>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Psychneuein>
+		<TechpriestBetrayer>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</TechpriestBetrayer>
+	</Neutral>
+	<Artefacts>
+		<AncientExterminatusDevice>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</AncientExterminatusDevice>
+		<Damage>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Damage>
+		<Healing>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Healing>
+		<Hitpoints>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Hitpoints>
+		<Loyalty>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Loyalty>
+		<Movement>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Movement>
+		<Sight>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Sight>
+		<VaulControlDevice>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</VaulControlDevice>
+		<VaulSentry>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</VaulSentry>
+	</Artefacts>
+	<Orks>
+		<Battlewagon>
+			<responses attack="OrksTanksAttack405460,OrksTanksAttack405461,OrksTanksAttack405462,OrksTanksAttack405463"
+			move="OrksTanksMove405450,OrksTanksMove405451,OrksTanksMove405452,OrksTanksMove405453"
+			productionCompleted=""
+			select="OrksTrukkSelection405420,OrksTrukkSelection405421,OrksTrukkUnit_complete405390"/>
+		</Battlewagon>
+		<Boy>
+			<responses attack="OrksSharedAbilityStikkbombs405170,OrksSharedAttack404880,OrksSharedAttack404880,OrksSharedAttack404881,OrksSharedAttack404882,OrksSharedAttack404883,OrksSharedAttack404884,OrksSharedAttack404885,OrksSharedAttack404886,OrksSharedChargewaaagh_1,OrksSharedChargewaaagh_2,OrksSharedChargewaaagh_3,OrksSharedCombat405230,OrksSharedCombat405231,OrksSharedCombat405232,OrksSharedCombat405233,OrksSharedCombat405234,OrksSharedCombat405235,OrksSharedCombat405236,OrksSharedCombat405238,OrksSharedCombat405239"
+			move="OrksSharedCapture405040,OrksSharedCapture405041,OrksSharedCapture405042,OrksSharedCombat405237,OrksSharedLoadtransport404910,OrksSharedLoadtransport404911,OrksSharedMove404851,OrksSharedMove404852,OrksSharedMove404853"
+			productionCompleted=""
+			select="OrksSharedMorale_restored405220,OrksSharedMorale_restored405221,OrksSharedMove404854,OrksSharedMove404855,OrksSharedMove404856,OrksSharedSelection404821,OrksSharedSelection404822,OrksSharedSelection404823,OrksSharedSelection404824,OrksSharedSelection404825,OrksSharedSelection404826,OrksSharedSelection404827,OrksSharedUnit_complete404790,OrksSharedUnloadtransport404930"/>
+		</Boy>
+		<BurnaBommer>
+			<responses attack="OrksFightabommaAbility5000137,OrksFightabommaAbility5000139,OrksFightabommaAttack5000132,OrksFightabommaAttack5000133,OrksFightabommaAttack5000134,OrksFightabommaAttack5000135,OrksFightabommaAttack5000136"
+			move="OrksFightabommaAbility5000138,OrksFightabommaMove5000140,OrksFightabommaMove5000141,OrksFightabommaMove5000142,OrksFightabommaMove5000143,OrksFightabommaMove5000144"
+			productionCompleted=""
+			select="OrksFightabommaSelection5000145,OrksFightabommaSelection5000146,OrksFightabommaSelection5000147,OrksFightabommaSelection5000148,OrksFightabommaUnit_complete5000149"/>
+		</BurnaBommer>
+		<Dakkajet>
+			<responses attack="OrksFightabommaAttack5000132,OrksFightabommaAttack5000134,OrksFightabommaAttack5000135,OrksFightabommaAttack5000136"
+			move="OrksFightabommaMove5000140,OrksFightabommaMove5000141,OrksFightabommaMove5000142,OrksFightabommaMove5000143,OrksFightabommaMove5000144"
+			productionCompleted=""
+			select="OrksFightabommaSelection5000146,OrksFightabommaAbility5000137,OrksFightabommaAbility5000138"/>
+		</Dakkajet>
+		<Deffkopta>
+			<responses attack="OrksStormboyzAttack404900,OrksStormboyzAttack404901,OrksStormboyzAttack404902,OrksStormboyzAttack404903,OrksStormboyzJump405191,OrksStormboyzMove404870"
+			move="OrksStormboyzJump405190,OrksStormboyzJump405192,OrksStormboyzJump405193,OrksStormboyzMove404871,OrksStormboyzMove404873"
+			productionCompleted=""
+			select="OrksStormboyzSelection404840,OrksStormboyzSelection404841,OrksStormboyzSelection404842,OrksStormboyzSelection404844,OrksStormboyzUnit_complete404810"/>
+		</Deffkopta>
+		<FlashGitz>
+			<responses attack="OrksFlashgitznobsAttack1070010,OrksFlashgitznobsAttack1070011,OrksFlashgitznobsAttack1070012,OrksFlashgitznobsAttack1070013,OrksFlashgitznobsAttack1070014,OrksFlashgitznobsCharge1070030,OrksFlashgitznobsCharge1070031,OrksFlashgitznobsCharge1070032,OrksFlashgitznobsCombat1070042,OrksFlashgitznobsCombat1070043"
+			move="OrksFlashgitznobsCapture1070020,OrksFlashgitznobsCapture1070022,OrksFlashgitznobsMorale_restored1070071,OrksFlashgitznobsMove1070080,OrksFlashgitznobsMove1070081,OrksFlashgitznobsMove1070082,OrksFlashgitznobsMove1070083,OrksFlashgitznobsMove1070084,OrksFlashgitznobsStrategic_point_capture1070101"
+			productionCompleted=""
+			select="OrksFlashgitznobsCombat1070041,OrksFlashgitznobsLoadtransport1070050,OrksFlashgitznobsSelection1070090,OrksFlashgitznobsSelection1070091,OrksFlashgitznobsSelection1070092,OrksFlashgitznobsSelection1070093,OrksFlashgitznobsSelection1070094,OrksFlashgitznobsStrategic_point_capture1070100"/>
+		</FlashGitz>
+		<GargantuanSquiggoth>
+			<responses attack="OrksSquiggothAttackdamage_1,OrksSquiggothSelectiondamage_1,OrksSquiggothUnit_completeattack_1"
+			move="OrksSquiggothAttackdamage_2,OrksSquiggothAttackstart_1,OrksSquiggothSelectiondamage_2"
+			productionCompleted=""
+			select="OrksSquiggothAttackmove_1,OrksSquiggothMovedamage_1,OrksSquiggothMovedamage_2,OrksSquiggothMovestart_1,OrksSquiggothSelectionstart_1"/>
+		</GargantuanSquiggoth>
+		<Gorkanaut>
+			<responses attack="OrksKilla_kanAttack404090,OrksKilla_kanAttack404091,OrksKilla_kanAttack404092,OrksKilla_kanAttack404093,OrksKilla_kanAttack404094,OrksKilla_kanCombat404150,OrksKilla_kanCombat404151,OrksKilla_kanCombat404152"
+			move="OrksKilla_kanMove404080,OrksKilla_kanMove404081,OrksKilla_kanMove404082,OrksKilla_kanMove404083,OrksKilla_kanMove404084"
+			productionCompleted=""
+			select="OrksKilla_kanSelection404071,OrksKilla_kanSelection404072,OrksKilla_kanSelection404073,OrksKilla_kanSelection404074,OrksKilla_kanUnit_complete404060"/>
+		</Gorkanaut>
+		<Headquarters>
+			<responses attack="" move="" productionCompleted="" select="OrksBuildingsBoyz_hutselection,OrksBuildingsOrk_hqselection,OrksBuildingsWaagh_bannerselection"/>
+		</Headquarters>
+		<KillaKan>
+			<responses attack="OrksKilla_kanAttack404090,OrksKilla_kanAttack404091,OrksKilla_kanAttack404092,OrksKilla_kanAttack404093,OrksKilla_kanAttack404094,OrksKilla_kanCombat404150,OrksKilla_kanCombat404151,OrksKilla_kanCombat404152"
+			move="OrksKilla_kanMove404080,OrksKilla_kanMove404081,OrksKilla_kanMove404082,OrksKilla_kanMove404083,OrksKilla_kanMove404084"
+			productionCompleted=""
+			select="OrksKilla_kanSelection404070,OrksKilla_kanSelection404071,OrksKilla_kanSelection404072,OrksKilla_kanSelection404073,OrksKilla_kanSelection404074,OrksKilla_kanUnit_complete404060"/>
+		</KillaKan>
+		<Meganob>
+			<responses attack="OrksNobzAttack405270,OrksNobzAttack405271,OrksNobzAttack405272,OrksNobzAttack405273,OrksNobzAttack405274,OrksNobzCombathit_4"
+			move="OrksNobzLoadtransport405281,OrksNobzMove405260,OrksNobzMove405261,OrksNobzMove405262,OrksNobzMove405263,OrksNobzMove405264,OrksNobzMove405265"
+			productionCompleted=""
+			select="OrksNobzMorale_restored405380,OrksNobzMorale_restored405382,OrksNobzSelection405250,OrksNobzSelection405251,OrksNobzSelection405252,OrksNobzSelection405253,OrksNobzSelection405254,OrksNobzSelection405255,OrksNobzUnit_complete405240,OrksNobzUnit_complete405241"/>
+		</Meganob>
+		<Mek>
+			<responses attack="OrksBig_mekAttack400230,OrksBig_mekAttack400231,OrksBig_mekAttack400232,OrksBig_mekAttack400233,OrksBig_mekAttack400234,OrksBig_mekCombat400360,OrksBig_mekCombat400361,OrksBig_mekCombat400362,OrksBig_mekCombat400363"
+			move="OrksBig_mekDetach400320,OrksBig_mekDetach400321,OrksBig_mekMove400220,OrksBig_mekMove400221,OrksBig_mekMove400222,OrksBig_mekMove400223,OrksBig_mekMove400224"
+			productionCompleted=""
+			select="OrksBig_mekJoin400311,OrksBig_mekSelection400210,OrksBig_mekSelection400211,OrksBig_mekSelection400212,OrksBig_mekSelection400213,OrksBig_mekSelection400214,OrksBig_mekSelection400215,OrksBig_mekUnit_complete400200,OrksBig_mekUnloadtransport400250"/>
+		</Mek>
+		<MekGun>
+			<responses attack="OrksTankbustasAbilityTankbusta_bombs405180,OrksTankbustasAttack404891,OrksTankbustasAttack404892,OrksTankbustasAttack404893"
+			move="OrksTankbustasLoadtransport404921,OrksTankbustasMove404860,OrksTankbustasMove404861,OrksTankbustasMove404862,OrksTankbustasMove404863,OrksTankbustasMove404864"
+			productionCompleted=""
+			select="OrksTankbustasSelection404830,OrksTankbustasSelection404832,OrksTankbustasSelection404834,OrksTankbustasUnit_complete404800"/>
+		</MekGun>
+		<Painboy>
+			<responses attack="OrksBad_dokAttack400020,OrksBad_dokAttack400021"
+			move="OrksBad_dokDetach400110,OrksBad_dokJoin400100,OrksBad_dokMove400010,OrksBad_dokMove400011,OrksBad_dokMove400012,OrksBad_dokMove400013"
+			productionCompleted=""
+			select="OrksBad_dokAbilityFightin_juice400120,OrksBad_dokAttack400022,OrksBad_dokJoin400101,OrksBad_dokLoadtransport400030,OrksBad_dokSelection400001,OrksBad_dokSelection400002,OrksBad_dokSelection400003,OrksBad_dokSelection400004,OrksBad_dokSelection400005,OrksBad_dokSelection400006,OrksBad_dokUnit_complete400000"/>
+		</Painboy>
+		<Tankbusta>
+			<responses attack="OrksTankbustasAbilityTankbusta_bombs405180,OrksTankbustasAttack404890,OrksTankbustasAttack404891,OrksTankbustasAttack404892,OrksTankbustasAttack404893"
+			move="OrksTankbustasLoadtransport404921,OrksTankbustasMove404860,OrksTankbustasMove404861,OrksTankbustasMove404862,OrksTankbustasMove404863,OrksTankbustasMove404864,OrksTankbustasUnloadtransport404940"
+			productionCompleted=""
+			select="OrksTankbustasAbilityTankbusta_bombs405181,OrksTankbustasSelection404830,OrksTankbustasSelection404831,OrksTankbustasSelection404832,OrksTankbustasSelection404833,OrksTankbustasSelection404834,OrksTankbustasUnit_complete404800"/>
+		</Tankbusta>
+		<Warboss>
+			<responses attack="OrksWarbossAttack406310,OrksWarbossAttack406311,OrksWarbossAttack406312,OrksWarbossAttack406313,OrksWarbossAttack406314,OrksWarbossCombat406403,OrksWarbossCombat406404,OrksWarbossCombat406405,OrksWarbossCombat406406,OrksWarbossCombat406408,OrksWarbossCombat406409,OrksWarbossMorale_restored406400,OrksWarbossSpottingChaos_marine406389,OrksWarbossSpottingEldar406391,OrksWarbossSpottingEnemy406387"
+			move="OrksWarbossDetach406386,OrksWarbossMove406300,OrksWarbossMove406301,OrksWarbossMove406302,OrksWarbossMove406303,OrksWarbossMove406304,OrksWarbossMove406305"
+			productionCompleted=""
+			select="OrksWarbossDetach406385,OrksWarbossJoin406383,OrksWarbossMorale_restored406401,OrksWarbossSelection406290,OrksWarbossSelection406291,OrksWarbossSelection406292,OrksWarbossSelection406293,OrksWarbossSelection406294,OrksWarbossSelection406295,OrksWarbossSelection406296,OrksWarbossSelection406297,OrksWarbossSpottingDaemon406395,OrksWarbossUnder_fire406393,OrksWarbossUnit_complete406280"/>
+		</Warboss>
+		<Warbuggy>
+			<responses attack="OrksTanksAttack405460,OrksTanksAttack405461,OrksTanksAttack405462,OrksTanksAttack405463"
+			move="OrksTanksMove405450,OrksTanksMove405451,OrksTanksMove405452,OrksTanksMove405453"
+			productionCompleted=""
+			select="OrksTrukkSelection405420,OrksTrukkSelection405421,OrksTrukkUnit_complete405390,OrksWartrakSelection405430,OrksWartrakSelection405431,OrksWartrakUnit_complete405400"/>
+		</Warbuggy>
+		<Weirdboy>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Weirdboy>
+	</Orks>
+	<SpaceMarines>
+		<Apothecary>
+			<responses attack="Space_marinesApothecaryAttack405850,Space_marinesApothecaryAttack405851,Space_marinesApothecaryAttack405852,Space_marinesApothecaryAttack405853"
+			move="Space_marinesApothecaryMove405820,Space_marinesApothecaryMove405821,Space_marinesApothecaryMove405822"
+			productionCompleted=""
+			select="Space_marinesApothecarySelection405790,Space_marinesApothecarySelection405791,Space_marinesApothecarySelection405792,Space_marinesApothecarySelection405793,Space_marinesApothecarySelection405794"/>
+		</Apothecary>
+		<AssaultSpaceMarine>
+			<responses attack="Space_marinesAssaultAttack406830,Space_marinesAssaultAttack406831,Space_marinesAssaultAttack406832,Space_marinesAssaultAttack406833,Space_marinesAssaultAttack406834,Space_marinesAssaultAttack406835,Space_marinesAssaultAttack406836,Space_marinesAssaultAttack406837,Space_marinesAssaultAttack406838,Space_marinesAssaultCombat406260"
+			move="Space_marinesAssaultMorale_restored407241,Space_marinesAssaultMove406800,Space_marinesAssaultMove406801,Space_marinesAssaultMove406802,Space_marinesAssaultMove406803,Space_marinesAssaultMove406804,Space_marinesAssaultMove406805,Space_marinesAssaultMove406806,Space_marinesAssaultMove406807,Space_marinesAssaultMove406808,Space_marinesAssaultMove406809"
+			productionCompleted=""
+			select="Space_marinesAssaultSelection406760,Space_marinesAssaultSelection406761,Space_marinesAssaultSelection406762,Space_marinesAssaultSelection406763,Space_marinesAssaultSelection406764,Space_marinesAssaultSelection406765,Space_marinesAssaultSelection406766,Space_marinesAssaultSelection406767,Space_marinesAssaultSelection406768,Space_marinesAssaultSelection406769,Space_marinesAssaultSelection406770"/>
+		</AssaultSpaceMarine>
+		<Captain>
+			<responses attack="Space_marinesForce_commanderAttack403150,Space_marinesForce_commanderAttack403151,Space_marinesForce_commanderAttack403152,Space_marinesForce_commanderAttack403153,Space_marinesForce_commanderCharge403380,Space_marinesForce_commanderCharge403381,Space_marinesForce_commanderCharge403382,Space_marinesForce_commanderCharge403383"
+			move="Space_marinesForce_commanderMove403130,Space_marinesForce_commanderMove403131,Space_marinesForce_commanderMove403132,Space_marinesForce_commanderMove403133,Space_marinesForce_commanderMove403134,Space_marinesForce_commanderMove403135,Space_marinesForce_commanderMove403136,Space_marinesForce_commanderMove403137,Space_marinesForce_commanderMove403138,Space_marinesForce_commanderMove403139,Space_marinesForce_commanderMove403140,Space_marinesForce_commanderMove403141"
+			productionCompleted=""
+			select="Space_marinesForce_commanderSelection402119,Space_marinesForce_commanderSelection403110,Space_marinesForce_commanderSelection403111,Space_marinesForce_commanderSelection403112,Space_marinesForce_commanderSelection403113,Space_marinesForce_commanderSelection403114,Space_marinesForce_commanderSelection403115,Space_marinesForce_commanderSelection403116,Space_marinesForce_commanderSelection403117,Space_marinesForce_commanderSelection403118,Space_marinesForce_commanderSelection403119,Space_marinesForce_commanderSelection403120"/>
+		</Captain>
+		<Chaplain>
+			<responses attack="Space_marinesChaplainAttack1003130,Space_marinesChaplainAttack1003131,Space_marinesChaplainAttack1003132,Space_marinesChaplainAttack1003133,Space_marinesChaplainAttack1003220,Space_marinesChaplainAttack1003221,Space_marinesChaplainCharge1003230,Space_marinesChaplainCharge1003231,Space_marinesChaplainCharge1003232,Space_marinesChaplainCombat1003190,Space_marinesChaplainCombat1003191,Space_marinesChaplainCombat1003192,Space_marinesChaplainCombat1003193"
+			move="Space_marinesChaplainMove1003120,Space_marinesChaplainMove1003121,Space_marinesChaplainMove1003122,Space_marinesChaplainMove1003123"
+			productionCompleted=""
+			select="Space_marinesChaplainSelection1003110,Space_marinesChaplainSelection1003111,Space_marinesChaplainSelection1003112,Space_marinesChaplainSelection1003113"/>
+		</Chaplain>
+		<DevastatorSpaceMarine>
+			<responses attack="Space_marinesSharedAttack405831,Space_marinesSharedAttack405832,Space_marinesSharedAttack405833,Space_marinesSharedAttack405834,Space_marinesSharedAttack405835,Space_marinesSharedAttack405836,Space_marinesSharedAttack405837,Space_marinesSharedAttack405838,Space_marinesSharedCharge406270,Space_marinesSharedCharge406271,Space_marinesSharedCharge406272,Space_marinesSharedCombat406250,Space_marinesSharedCombat406251,Space_marinesSharedCombat406252,Space_marinesSharedCombat406253,Space_marinesSharedCombat406254"
+			move="Space_marinesSharedMove405800,Space_marinesSharedMove405801,Space_marinesSharedMove405802,Space_marinesSharedMove405803,Space_marinesSharedMove405804,Space_marinesSharedMove405805,Space_marinesSharedMove405806,Space_marinesSharedMove405807,Space_marinesSharedMove405808,Space_marinesSharedMove405809"
+			productionCompleted=""
+			select="Space_marinesSharedSelection405760,Space_marinesSharedSelection405761,Space_marinesSharedSelection405762,Space_marinesSharedSelection405763,Space_marinesSharedSelection405764,Space_marinesSharedSelection405765,Space_marinesSharedSelection405766,Space_marinesSharedSelection405767,Space_marinesSharedSelection405768,Space_marinesSharedSelection405769,Space_marinesSharedSelection405770"/>
+		</DevastatorSpaceMarine>
+		<Dreadnought>
+			<responses attack="Space_marinesDreadnoughtAttack404370,Space_marinesDreadnoughtAttack404371,Space_marinesDreadnoughtAttack404372,Space_marinesDreadnoughtAttack404373,Space_marinesDreadnoughtAttack404374,Space_marinesDreadnoughtCharge404430,Space_marinesDreadnoughtCharge404431,Space_marinesDreadnoughtCombat404440,Space_marinesDreadnoughtCombat404441,Space_marinesDreadnoughtCombat404442,Space_marinesDreadnoughtCombat404443"
+			move="Space_marinesDreadnoughtMove404360,Space_marinesDreadnoughtMove404361,Space_marinesDreadnoughtMove404362,Space_marinesDreadnoughtMove404363,Space_marinesDreadnoughtMove404364,Space_marinesDreadnoughtMove404365,Space_marinesDreadnoughtMove404366"
+			productionCompleted=""
+			select="Space_marinesDreadnoughtSelection404350,Space_marinesDreadnoughtSelection404351,Space_marinesDreadnoughtSelection404352,Space_marinesDreadnoughtSelection404353,Space_marinesDreadnoughtSelection404354,Space_marinesDreadnoughtSelection404355,Space_marinesDreadnoughtSelection404356"/>
+		</Dreadnought>
+		<FortressOfRedemption>
+			<responses attack="" move="" productionCompleted="" select="Space_marinesBuildingsProginator_templeselection"/>
+		</FortressOfRedemption>
+		<Headquarters>
+			<responses attack="" move="" productionCompleted="" select="Space_marinesBuildingsMarine_hqselection"/>
+		</Headquarters>
+		<Hunter>
+			<responses attack="Space_marinesWhirlwindAttack404710,Space_marinesWhirlwindAttack404712,Space_marinesWhirlwindAttack404713"
+			move="Space_marinesTanksMove404700,Space_marinesTanksMove404701,Space_marinesTanksMove404704,Space_marinesTanksMove404705" productionCompleted="" select="Space_marinesTanksMove404702,Space_marinesTanksMove404703"/>
+		</Hunter>
+		<LandRaider>
+			<responses attack="Space_marinesTanksAttack404720,Space_marinesTanksAttack404721,Space_marinesTanksAttack404722"
+			move="Space_marinesTanksMove404700,Space_marinesTanksMove404701,Space_marinesTanksMove404702,Space_marinesTanksMove404703,Space_marinesTanksMove404704,Space_marinesTanksMove404705"
+			productionCompleted="" select="Space_marinesLand_raiderSelection404680,Space_marinesLand_raiderSelection404681"/>
+		</LandRaider>
+		<LandSpeeder>
+			<responses attack="Space_marinesTanksAttack404720,Space_marinesTanksAttack404721,Space_marinesTanksAttack404722"
+			move="Space_marinesTanksMove404700,Space_marinesTanksMove404701,Space_marinesTanksMove404702,Space_marinesTanksMove404703,Space_marinesTanksMove404704,Space_marinesTanksMove404705"
+			productionCompleted=""
+			select="Space_marinesLand_speederSelection404570,Space_marinesLand_speederSelection404671"/>
+		</LandSpeeder>
+		<Librarian>
+			<responses attack="Space_marinesLibrarianAttack404190,Space_marinesLibrarianAttack404191,Space_marinesLibrarianAttack404192,Space_marinesLibrarianAttack404193,Space_marinesLibrarianAttack404194,Space_marinesLibrarianCharge404330,Space_marinesLibrarianCharge404331,Space_marinesLibrarianCharge404332,Space_marinesLibrarianCombat404320,Space_marinesLibrarianCombat404321,Space_marinesLibrarianCombat404322,Space_marinesLibrarianCombat404323,Space_marinesLibrarianCombat404324"
+			move="Space_marinesLibrarianMove404180,Space_marinesLibrarianMove404181,Space_marinesLibrarianMove404182,Space_marinesLibrarianMove404183,Space_marinesLibrarianMove404184,Space_marinesLibrarianMove404185,Space_marinesLibrarianMove404186,Space_marinesLibrarianMove404187,Space_marinesLibrarianMove404188"
+			productionCompleted=""
+			select="Space_marinesLibrarianSelection404170,Space_marinesLibrarianSelection404171,Space_marinesLibrarianSelection404172,Space_marinesLibrarianSelection404173,Space_marinesLibrarianSelection404174,Space_marinesLibrarianSelection404175,Space_marinesLibrarianSelection404176,Space_marinesLibrarianSelection404177"/>
+		</Librarian>
+		<Predator>
+			<responses attack="Space_marinesTanksAttack404720,Space_marinesTanksAttack404721,Space_marinesTanksAttack404722"
+			move="Space_marinesTanksMove404700,Space_marinesTanksMove404701,Space_marinesTanksMove404702,Space_marinesTanksMove404703,Space_marinesTanksMove404704,Space_marinesTanksMove404705"
+			productionCompleted=""
+			select="Space_marinesPredatorSelection404561,Space_marinesPredatorSelection404561"/>
+		</Predator>
+		<ScoutBiker>
+			<responses attack="Space_marinesScoutAttack405580,Space_marinesScoutAttack405581,Space_marinesScoutAttack405582,Space_marinesScoutAttack405583,Space_marinesScoutAttack405584,Space_marinesScoutCharge405710,Space_marinesScoutCharge405711,Space_marinesScoutCharge405712"
+			move="Space_marinesScoutMove405570,Space_marinesScoutMove405571,Space_marinesScoutMove405573,Space_marinesScoutMove405574,Space_marinesScoutMove405575,Space_marinesScoutMove405576,Space_marinesScoutMove405577,Space_marinesScoutMove405578"
+			productionCompleted=""
+			select="Space_marinesScoutSelection405560,Space_marinesScoutSelection405561,Space_marinesScoutSelection405562,Space_marinesScoutSelection405563,Space_marinesScoutSelection405564,Space_marinesScoutSelection405565"/>
+		</ScoutBiker>
+		<StormravenGunship>
+			<responses attack="Space_marinesTempestAttack5000100,Space_marinesTempestAttack5000101,Space_marinesTempestAttack5000102,Space_marinesTempestAttack5000103"
+			move="Space_marinesTempestMove5000105,Space_marinesTempestMove5000108,Space_marinesTempestMove5000109"
+			productionCompleted=""
+			select="Space_marinesTempestSelection5000112"/>
+		</StormravenGunship>
+		<StormtalonGunship>
+			<responses attack="Space_marinesTempestAttack5000100,Space_marinesTempestAttack5000101,Space_marinesTempestAttack5000102,Space_marinesTempestAttack5000103"
+			move="Space_marinesTempestMove5000105,Space_marinesTempestMove5000108,Space_marinesTempestMove5000109"
+			productionCompleted=""
+			select="Space_marinesTempestSelection5000112"/>
+		</StormtalonGunship>
+		<TacticalSpaceMarine>
+			<responses attack="Space_marinesSharedAttack405831,Space_marinesSharedAttack405832,Space_marinesSharedAttack405833,Space_marinesSharedAttack405834,Space_marinesSharedAttack405835,Space_marinesSharedAttack405836,Space_marinesSharedAttack405837,Space_marinesSharedAttack405838,Space_marinesSharedCharge406270,Space_marinesSharedCharge406271,Space_marinesSharedCharge406272,Space_marinesSharedCombat406250,Space_marinesSharedCombat406251,Space_marinesSharedCombat406252,Space_marinesSharedCombat406253,Space_marinesSharedCombat406254"
+			move="Space_marinesSharedMove405800,Space_marinesSharedMove405801,Space_marinesSharedMove405802,Space_marinesSharedMove405803,Space_marinesSharedMove405804,Space_marinesSharedMove405805,Space_marinesSharedMove405806,Space_marinesSharedMove405807,Space_marinesSharedMove405808,Space_marinesSharedMove405809"
+			productionCompleted=""
+			select="Space_marinesSharedSelection405760,Space_marinesSharedSelection405761,Space_marinesSharedSelection405762,Space_marinesSharedSelection405763,Space_marinesSharedSelection405764,Space_marinesSharedSelection405765,Space_marinesSharedSelection405766,Space_marinesSharedSelection405767,Space_marinesSharedSelection405768,Space_marinesSharedSelection405769,Space_marinesSharedSelection405770"/>
+		</TacticalSpaceMarine>
+		<Terminator>
+			<responses attack="Space_marinesTerminatorAttack405840,Space_marinesTerminatorAttack405841,Space_marinesTerminatorAttack405842,Space_marinesTerminatorAttack405843,Space_marinesTerminatorAttack405844,Space_marinesTerminatorCharge407280,Space_marinesTerminatorCharge407281,Space_marinesTerminatorCharge407282,Space_marinesTerminatorCombat407260,Space_marinesTerminatorCombat407261,Space_marinesTerminatorCombat407262,Space_marinesTerminatorCombat407263,Space_marinesTerminatorCombat407264"
+			move="Space_marinesTerminatorMove405810,Space_marinesTerminatorMove405811,Space_marinesTerminatorMove405812,Space_marinesTerminatorMove405813,Space_marinesTerminatorMove405814,Space_marinesTerminatorMove405815"
+			productionCompleted=""
+			select="Space_marinesTerminatorSelection405780,Space_marinesTerminatorSelection405781,Space_marinesTerminatorSelection405782,Space_marinesTerminatorSelection405783,Space_marinesTerminatorSelection405784"/>
+		</Terminator>
+		<ThunderfireCannon>
+			<responses attack="Space_marinesServitorMove405530,Space_marinesServitorMove405533"
+			move="Space_marinesServitorMove405531,Space_marinesServitorMove405532"
+			productionCompleted=""
+			select="Space_marinesServitorSelection405520,Space_marinesServitorSelection405521,Space_marinesServitorSelection405522,Space_marinesServitorSelection405523"/>
+		</ThunderfireCannon>
+		<Vindicator>
+			<responses attack="Space_marinesTanksAttack404720,Space_marinesTanksAttack404721,Space_marinesTanksAttack404722"
+			move="Space_marinesRhinoMove404691,Space_marinesRhinoMove404693"
+			productionCompleted=""
+			select="Space_marinesRhinoMove404691"/>
+		</Vindicator>
+	</SpaceMarines>
+</config>

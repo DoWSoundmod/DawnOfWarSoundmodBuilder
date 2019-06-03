@@ -1,0 +1,370 @@
+<?xml version="1.0" ?>
+<config>
+	<AstraMilitarum>
+		<Baneblade>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Baneblade>
+		<Basilisk>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Basilisk>
+		<Bullgryn>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Bullgryn>
+		<Guardsman>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Guardsman>
+		<Headquarters>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Headquarters>
+		<HeavyWeaponsSquad>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</HeavyWeaponsSquad>
+		<Hydra>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Hydra>
+		<ImperialStrongpoint>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</ImperialStrongpoint>
+		<LemanRussBattleTank>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</LemanRussBattleTank>
+		<LordCommissar>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</LordCommissar>
+		<MarauderBomber>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</MarauderBomber>
+		<PrimarisPsyker>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</PrimarisPsyker>
+		<ScoutSentinel>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</ScoutSentinel>
+		<TankCommander>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</TankCommander>
+		<TechpriestEnginseer>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</TechpriestEnginseer>
+		<TempestusScion>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</TempestusScion>
+		<Thunderbolt>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Thunderbolt>
+		<Valkyrie>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Valkyrie>
+		<WyrdvanePsyker>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</WyrdvanePsyker>
+	</AstraMilitarum>
+	<ChaosSpaceMarines>
+		<ChaosCultist>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</ChaosCultist>
+	</ChaosSpaceMarines>
+	<Necrons>
+		<AnnihilationBarge>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</AnnihilationBarge>
+		<CanoptekScarab>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</CanoptekScarab>
+		<CanoptekSpyder>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</CanoptekSpyder>
+		<Cryptek>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Cryptek>
+		<DestroyerLord>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</DestroyerLord>
+		<DoomScythe>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</DoomScythe>
+		<DoomsdayArk>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</DoomsdayArk>
+		<Headquarters>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Headquarters>
+		<HeavyDestroyer>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</HeavyDestroyer>
+		<Immortal>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Immortal>
+		<Lord>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Lord>
+		<Monolith>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Monolith>
+		<NightScythe>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</NightScythe>
+		<Obelisk>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Obelisk>
+		<TesseractVault>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</TesseractVault>
+		<TombBlade>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</TombBlade>
+		<TranscendentCtan>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</TranscendentCtan>
+		<TriarchPraetorian>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</TriarchPraetorian>
+		<TriarchStalker>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</TriarchStalker>
+		<Warrior>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Warrior>
+	</Necrons>
+	<Neutral>
+		<Ambull>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Ambull>
+		<CatachanDevil>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</CatachanDevil>
+		<CatachanDevilLair>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</CatachanDevilLair>
+		<Enslaver>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Enslaver>
+		<KastelanRobot>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</KastelanRobot>
+		<KrootHound>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</KrootHound>
+		<LordOfSkulls>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</LordOfSkulls>
+		<NeophyteHybrid>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</NeophyteHybrid>
+		<Psychneuein>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Psychneuein>
+		<TechpriestBetrayer>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</TechpriestBetrayer>
+	</Neutral>
+	<Artefacts>
+		<AncientExterminatusDevice>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</AncientExterminatusDevice>
+		<Damage>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Damage>
+		<Healing>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Healing>
+		<Hitpoints>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Hitpoints>
+		<Loyalty>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Loyalty>
+		<Movement>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Movement>
+		<Sight>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Sight>
+		<VaulControlDevice>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</VaulControlDevice>
+		<VaulSentry>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</VaulSentry>
+	</Artefacts>
+	<Orks>
+		<Battlewagon>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Battlewagon>
+		<Boy>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Boy>
+		<BurnaBommer>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</BurnaBommer>
+		<Dakkajet>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Dakkajet>
+		<Deffkopta>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Deffkopta>
+		<FlashGitz>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</FlashGitz>
+		<GargantuanSquiggoth>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</GargantuanSquiggoth>
+		<Gorkanaut>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Gorkanaut>
+		<Headquarters>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Headquarters>
+		<KillaKan>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</KillaKan>
+		<Meganob>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Meganob>
+		<Mek>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Mek>
+		<MekGun>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</MekGun>
+		<Painboy>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Painboy>
+		<Tankbusta>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Tankbusta>
+		<Warboss>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Warboss>
+		<Warbuggy>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Warbuggy>
+		<Weirdboy>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Weirdboy>
+	</Orks>
+	<SpaceMarines>
+		<Apothecary>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Apothecary>
+		<AssaultSpaceMarine>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</AssaultSpaceMarine>
+		<Captain>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Captain>
+		<Chaplain>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Chaplain>
+		<DevastatorSpaceMarine>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</DevastatorSpaceMarine>
+		<Dreadnought>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Dreadnought>
+		<FortressOfRedemption>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</FortressOfRedemption>
+		<Headquarters>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Headquarters>
+		<Hunter>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Hunter>
+		<LandRaider>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</LandRaider>
+		<LandSpeeder>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</LandSpeeder>
+		<Librarian>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Librarian>
+		<Predator>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Predator>
+		<ScoutBiker>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</ScoutBiker>
+		<StormravenGunship>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</StormravenGunship>
+		<StormtalonGunship>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</StormtalonGunship>
+		<TacticalSpaceMarine>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</TacticalSpaceMarine>
+		<Terminator>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Terminator>
+		<ThunderfireCannon>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</ThunderfireCannon>
+		<Vindicator>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Vindicator>
+	</SpaceMarines>
+	<Tyranids>
+		<Carnifex>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Carnifex>
+		<Doom>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Doom>
+		<Exocrine>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Exocrine>
+		<Gargoyle>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Gargoyle>
+		<Haruspex>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Haruspex>
+		<Headquarters>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Headquarters>
+		<HiveCrone>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</HiveCrone>
+		<HiveTyrant>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</HiveTyrant>
+		<Hormagaunt>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Hormagaunt>
+		<Lictor>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Lictor>
+		<Malanthrope>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Malanthrope>
+		<Ravener>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Ravener>
+		<Termagant>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Termagant>
+		<Tervigon>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Tervigon>
+		<Trygon>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Trygon>
+		<Tunnel>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Tunnel>
+		<TyranidPrime>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</TyranidPrime>
+		<Tyrannofex>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Tyrannofex>
+		<Warrior>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Warrior>
+		<Zoanthrope>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Zoanthrope>
+	</Tyranids>
+</config>
