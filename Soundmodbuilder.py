@@ -311,5 +311,5 @@ if setupSuccesfull():
     completed = completedUnits
     total = completedUnits +canceledUnits
     print("Completed " + str(completedUnits)+"/"+str(total)+" Units")
-    input("Press enter to quit")
+input("Press enter to quit")
 
