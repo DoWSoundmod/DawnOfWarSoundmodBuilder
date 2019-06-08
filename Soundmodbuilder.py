@@ -127,15 +127,9 @@ def voiceEntrysValid(configEntry):
 
 def setupSuccesfull():
     global CONFIG_XML_TREE
+    global INPUT_XML
+    global OUTPUT_MOD
     setupSuccessfull = True
-    if len(os.listdir(INPUT_WAV)) is 0:
-        print("Error! No Files in %s found" %INPUT_WAV)
-        setupSuccessfull = False
-    if len(os.listdir(INPUT_XML)) is 0:
-        print("Error! No Files in %s found" %InputXML)
-        setupSuccessfull = False
-    if len(os.listdir(OUTPUT_MOD)) is not 0:
-        print("Warning, %s not empty" %OUTPUT_MOD)
     if not fileExists(CONFIG_XML_FILE):
         print("Error! Soundconfig not found!")
         setupSuccessfull = False
@@ -155,6 +149,31 @@ def setupSuccesfull():
     except:
         print("Error! Failed to set up %s" %outputXML)
         setupSuccessfull = False
+
+    try:
+        if not os.path.exists(INPUT_XML):
+           os.makedirs(INPUT_XML)
+    except:
+        print("Error! Failed to set up %s" %INPUT_XML)
+        setupSuccessfull = False
+
+    try:
+        if not os.path.exists(OUTPUT_MOD):
+           os.makedirs(OUTPUT_MOD)
+    except:
+        print("Error! Failed to set up %s" %OUTPUT_MOD)
+        setupSuccessfull = False
+
+    if len(os.listdir(INPUT_WAV)) is 0:
+        print("Error! No Files in %s found" %INPUT_WAV)
+        setupSuccessfull = False
+    if len(os.listdir(INPUT_XML)) is 0:
+        print("Error! No Files in %s found" %INPUT_XML)
+        setupSuccessfull = False
+    if len(os.listdir(OUTPUT_MOD)) is not 0:
+        print("Warning, %s not empty" %OUTPUT_MOD)
+    
+      
     createMixerXmlTree()
        
     return setupSuccessfull
