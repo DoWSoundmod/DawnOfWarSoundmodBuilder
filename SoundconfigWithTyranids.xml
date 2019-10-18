@@ -110,6 +110,13 @@
 			productionCompleted=""
 			select="GuardMarauderSelection5000181,GuardMarauderSelection5000183"/>
 		</Valkyrie>
+		<VoidShieldGenerator>
+			<responses
+			attack=""
+			move=""
+			productionCompleted=""
+			select="GuardBuildingsListening_postselection,GuardBuildingsMarspatternselection"/>
+		</VoidShieldGenerator>
 		<WyrdvanePsyker>
 			<responses attack="GuardPsykerAttack1000630,GuardPsykerAttack1000631,GuardPsykerAttack1000632,GuardPsykerAttack1000633,GuardPsykerCharge1000730,GuardPsykerCharge1000731"
 			move="GuardPsykerMove1000621,GuardPsykerMove1000622,GuardPsykerMove1000623,GuardPsykerMove1000624"
@@ -207,6 +214,12 @@
 			productionCompleted=""
 			select="Chaos_marinesBloodthirsterAttackidle_1,Chaos_marinesBloodthirsterAttackidle_2,Chaos_marinesBloodthirsterAttackidle_3"/>
 		</Maulerfiend>
+		<NoctilithCrown>
+			<responses attack=""
+			move=""
+			productionCompleted=""
+			select="Chaos_marinesBuildingsGeneratorselection,Chaos_marinesBuildingsThermo_generatorselection"/>
+		</NoctilithCrown>
 		<Obliterator>
 			<responses attack="Chaos_marinesObliteratorAttack400880,Chaos_marinesObliteratorAttack400881,Chaos_marinesObliteratorAttack400882,Chaos_marinesObliteratorCharge401190,Chaos_marinesObliteratorCombat401169,Chaos_marinesObliteratorCombat401170,Chaos_marinesObliteratorCombat401171"
 			move="Chaos_marinesObliteratorMove400849,Chaos_marinesObliteratorMove400850,Chaos_marinesObliteratorSelection400819,Chaos_marinesObliteratorSelection400820"
@@ -277,6 +290,12 @@
 			productionCompleted=""
 			select="NecronDestroyerLoadtransportselect_34,NecronDestroyerMorale_restoredselect_43,NecronDestroyerSelectionselection,NecronDestroyerUnloadtransportselect_34"/>
 		</DoomsdayArk>
+		<GaussPylon>
+			<responses attack=""
+			move=""
+			productionCompleted=""
+			select="NecronBuildingsForbidden_archiveselection,NecronBuildingsPlasma_generatorselection,NecronBuildingsThermoplasma_generatorselection"/>
+		</GaussPylon>
 		<Headquarters>
 			<responses attack="" move="" productionCompleted="" select="NecronBuildingsMonolithselection"/>
 		</Headquarters>
@@ -421,6 +440,12 @@
 			productionCompleted=""
 			select="OrksTrukkSelection405420,OrksTrukkSelection405421,OrksTrukkUnit_complete405390"/>
 		</Battlewagon>
+		<BigMek>
+			<responses attack="OrksBig_mekAbilitySuperstikk_bombs400332,OrksBig_mekAttack400230,OrksBig_mekAttack400231,OrksBig_mekAttack400232,OrksBig_mekAttack400233,OrksBig_mekAttack400234,OrksBig_mekCombat400360,OrksBig_mekCombat400361,OrksBig_mekCombat400362,OrksBig_mekCombat400363"
+			move="OrksBig_mekDetach400320,OrksBig_mekDetach400321,OrksBig_mekMove400220,OrksBig_mekMove400221,OrksBig_mekMove400222,OrksBig_mekMove400223,OrksBig_mekMove400224"
+			productionCompleted=""
+			select="OrksBig_mekJoin400311,OrksBig_mekLoadtransport400240,OrksBig_mekSelection400210,OrksBig_mekSelection400212,OrksBig_mekSelection400213,OrksBig_mekSelection400214,OrksBig_mekSelection400215"/>
+		</BigMek>
 		<Boy>
 			<responses attack="OrksSharedAbilityStikkbombs405170,OrksSharedAttack404880,OrksSharedAttack404880,OrksSharedAttack404881,OrksSharedAttack404882,OrksSharedAttack404883,OrksSharedAttack404884,OrksSharedAttack404885,OrksSharedAttack404886,OrksSharedChargewaaagh_1,OrksSharedChargewaaagh_2,OrksSharedChargewaaagh_3,OrksSharedCombat405230,OrksSharedCombat405231,OrksSharedCombat405232,OrksSharedCombat405233,OrksSharedCombat405234,OrksSharedCombat405235,OrksSharedCombat405236,OrksSharedCombat405238,OrksSharedCombat405239"
 			move="OrksSharedCapture405040,OrksSharedCapture405041,OrksSharedCapture405042,OrksSharedCombat405237,OrksSharedLoadtransport404910,OrksSharedLoadtransport404911,OrksSharedMove404851,OrksSharedMove404852,OrksSharedMove404853"
@@ -525,6 +550,12 @@
 			productionCompleted=""
 			select="Space_marinesApothecarySelection405790,Space_marinesApothecarySelection405791,Space_marinesApothecarySelection405792,Space_marinesApothecarySelection405793,Space_marinesApothecarySelection405794"/>
 		</Apothecary>
+		<AquilaMacroCannon>
+			<responses attack=""
+			move=""
+			productionCompleted=""
+			select="Space_marinesBuildingsArmouryselection"/>
+		</AquilaMacroCannon>
 		<AssaultSpaceMarine>
 			<responses attack="Space_marinesAssaultAttack406830,Space_marinesAssaultAttack406831,Space_marinesAssaultAttack406832,Space_marinesAssaultAttack406833,Space_marinesAssaultAttack406834,Space_marinesAssaultAttack406835,Space_marinesAssaultAttack406836,Space_marinesAssaultAttack406837,Space_marinesAssaultAttack406838,Space_marinesAssaultCombat406260"
 			move="Space_marinesAssaultMorale_restored407241,Space_marinesAssaultMove406800,Space_marinesAssaultMove406801,Space_marinesAssaultMove406802,Space_marinesAssaultMove406803,Space_marinesAssaultMove406804,Space_marinesAssaultMove406805,Space_marinesAssaultMove406806,Space_marinesAssaultMove406807,Space_marinesAssaultMove406808,Space_marinesAssaultMove406809"
@@ -632,6 +663,13 @@
 		</Vindicator>
 	</SpaceMarines>
 	<Tyranids>
+		<Biovore>
+			<responses
+			attack="sporecrawler_attack0,sporecrawler_attack1,sporecrawler_attack2,sporecrawler_attack3,sporecrawler_attack4,sporecrawler_attack5"
+			move="sporecrawler_yes0,sporecrawler_yes1,sporecrawler_yes2,sporecrawler_yes3,sporecrawler_yes4,sporecrawler_yes5,sporecrawler_yes6,sporecrawler_yes7"
+			productionCompleted=""
+			select="sporecrawler_what0,sporecrawler_what1,sporecrawler_what2,sporecrawler_what3,sporecrawler_what4,sporecrawler_what5,sporecrawler_what6,sporecrawler_what7"/>
+		</Biovore>
 		<Carnifex>
 			<responses attack="brutalisk_attack_00,brutalisk_attack_01,brutalisk_attack_02,brutalisk_attack_03,brutalisk_attack_04,brutalisk_attack_05,brutalisk_attack_06,brutalisk_attack_07,brutalisk_attack_08,brutalisk_attack_09"
 			move="brutalisk_yes_00,brutalisk_yes_01,brutalisk_yes_02,brutalisk_yes_03,brutalisk_yes_04,brutalisk_yes_05,brutalisk_yes_06,brutalisk_yes_07,brutalisk_yes_08,brutalisk_yes_09"
@@ -704,6 +742,12 @@
 			productionCompleted=""
 			select="zbrpss00,zbrpss01,zbrwht00,zbrwht01,zbrwht02,zbrwht03"/>
 		</Ravener>
+		<SporeMine>
+			<responses attack="changeling_yes0,changeling_yes1,changeling_yes2,changeling_yes3,changeling_yes4,changeling_yes5,changeling_yes6,changeling_yes7,changeling_yes8,changeling_yes9"
+			move="changeling_ready0,changeling_what0,changeling_what1,changeling_what2,changeling_what3,changeling_what4,changeling_what5,changeling_what6,changeling_what7,changeling_what8,changeling_what9"
+			productionCompleted=""
+			select="changeling_ready0,changeling_what0,changeling_what1,changeling_what2,changeling_what3,changeling_what4,changeling_what5,changeling_what6,changeling_what7,changeling_what8,changeling_what9"/>
+		</SporeMine>
 		<Termagant>
 			<responses attack="zzeyes02,zzepss02,zzerdy00,zzepss00"
 			move="zzeyes00,zzeyes01,zzeyes03,zzewht02"
