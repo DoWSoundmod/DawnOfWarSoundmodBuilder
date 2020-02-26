@@ -45,7 +45,8 @@ soundfileMapping = {
     "Orks" : {},
     "SpaceMarines" : {},
     "Tyranids" : {},
-    "ChaosSpaceMarines" : {}
+    "ChaosSpaceMarines" : {},
+    "Tau" : {}
     }
 
 global CUSTOM_GAIN
