@@ -50,7 +50,6 @@ soundfileMapping = {
     }
 
 global CUSTOM_GAIN
-
 CUSTOM_GAIN = {
     "soundname" : "gain",
     "soundname2" : "gain",
@@ -62,12 +61,11 @@ def addSoundfileMapping(originalSoundname, newSoundname):
     global currentFaction
     global soundfileMapping
     soundfileMapping[currentFaction][newSoundname]=[originalSoundname]
-    
 
+    
 def getOldSoundName(faction, newSoundname):
-    return soundfileMapping[faction][newSoundname]
+    return soundfileMapping[faction][newSoundname] 
 
-    
 
 def getGain(soundName):    
     global GAIN
@@ -82,6 +80,7 @@ def requiresCustomGain(faction):
     else:
         return False
 
+
 def createMixerXmlTree():
     global MIXER_XML_TREE
     MIXER_XML_TREE = ET.Element('mixer')
@@ -89,6 +88,7 @@ def createMixerXmlTree():
     MIXER_XML_TREE.set("maxDistance","1000000")
     MIXER_XML_TREE.set("referenceDistance","1500")
     MIXER_XML_TREE.set("rolloffFactor","4")
+
 
 def populateMixer(soundNames, faction):
     global MIXER_XML_TREE
@@ -110,6 +110,7 @@ def fileExists(pathToFile):
         return False
     return True
 
+
 def doSoundsExist(soundList):
     returnvalue = True
     soundList = soundList.split(',')
@@ -119,13 +120,17 @@ def doSoundsExist(soundList):
         returnvalue = returnvalue and value
     return returnvalue
 
+
 def voiceEntrysValid(configEntry):
+    entriesValid = True
     for entry in configEntry:
         for attrib in entry.attrib:
             if entry.get(attrib).strip() !="":
-                return doSoundsExist(entry.get(attrib))
+                entriesValid = entriesValid and doSoundsExist(entry.get(attrib))
             else:
-                return True
+                entriesValid = entriesValid and True
+        return entriesValid
+
 
 def setupSuccesfull():
     global CONFIG_XML_TREE
@@ -173,16 +178,15 @@ def setupSuccesfull():
         print("Error! No Files in %s found" %INPUT_XML)
         setupSuccessfull = False
     if len(os.listdir(OUTPUT_MOD)) is not 0:
-        print("Warning, %s not empty" %OUTPUT_MOD)
-    
-      
-    createMixerXmlTree()
-       
+        print("Warning, %s not empty" %OUTPUT_MOD)          
+    createMixerXmlTree()       
     return setupSuccessfull
+
 
 def createFactionXmlDirectory(faction):
     if not os.path.exists(outputXML):
         os.makedirs(outputXML)
+
 
 def generatePath(basePath, faction):
     path = basePath
@@ -192,9 +196,11 @@ def generatePath(basePath, faction):
         path = path+"/"+faction
     return path
 
+
 def processNode(node):
     for unit in node:
         processUnit(node, unit)
+
         
 def getVoiceEntrys(configResponseEntry):
     responseEntrys = {}
@@ -206,10 +212,12 @@ def getVoiceEntrys(configResponseEntry):
                     responseEntrys[attrib] = responseEntrys[attrib]+","+SILENT_WAV
     return responseEntrys
 
+
 def generateSoundName(baseName, soundNr):
     parts = baseName
     newSoundName = baseName+str(soundNr)
     return newSoundName
+
 
 def generateVoiceFilenames(voiceList):
     global currentUnit
@@ -221,11 +229,11 @@ def generateVoiceFilenames(voiceList):
         for i in range(0,len(voiceList)):
             newSoundName = generateSoundName(baseName, i)
             newVoiceFilenames.append(newSoundName)
-            addSoundfileMapping(voiceList[i],newSoundName)
-            
+            addSoundfileMapping(voiceList[i],newSoundName)           
     else:
         newVoiceFilenames.append(baseName)
     return newVoiceFilenames
+
 
 def copySoundFiles(nameListOrig, nameListNew, faction):
     targetPath = "output"+"/"+generatePath(BASEDIRECTORY_WAV, faction)
@@ -234,11 +242,13 @@ def copySoundFiles(nameListOrig, nameListNew, faction):
 
     for i in range(0, len(nameListOrig)):
         shutil.copy(INPUT_WAV+"/"+nameListOrig[i].strip()+".wav", targetPath+"/"+nameListNew[i]+".wav")
+
         
 def addToResponse(nodeResponses, attribute, sound, soundCount):
     newElem = ET.Element(attribute, sound=sound, soundCount = soundCount)
     nodeResponse.set(nodeResponses+sound, sound)
     nodeResponse.set(nodeResponses+sound, soundCount)    
+
 
 def processDescriptionEntrys(descriptionEntrys, faction):
     global currentAction
@@ -261,6 +271,7 @@ def processDescriptionEntrys(descriptionEntrys, faction):
                 newElem = ET.Element(entry, sound="Units/DoWSounds/"+faction+"/"+newVoiceNames[0])
             nodeResponses.append(newElem)
     return nodeResponses
+
         
 def processUnit(faction, unit):
     global completedUnits
@@ -292,10 +303,12 @@ def processUnit(faction, unit):
         canceledUnits = canceledUnits+1
         print("-->Skipped unit \"%s\" because of missing file(s)"%unit.tag)
 
+
 def processSoundConfig():
     root = CONFIG_XML_TREE.getroot()
     for faction in root:
         processNode(faction)
+
         
 def createMixer_XML():
     tree = ET.ElementTree(MIXER_XML_TREE).getroot()
@@ -314,4 +327,3 @@ if setupSuccesfull():
     total = completedUnits +canceledUnits
     print("Completed " + str(completedUnits)+"/"+str(total)+" Units")
 input("Press enter to quit")
-

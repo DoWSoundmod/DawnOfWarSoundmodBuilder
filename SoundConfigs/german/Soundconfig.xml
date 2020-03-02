@@ -62,10 +62,10 @@
 			select="GuardCommissarSelection1000210,GuardCommissarSelection1000211,GuardCommissarSelection1000212,GuardCommissarSelection1000213"/>
 		</LordCommissar>
 		<MarauderBomber>
-			<responses attack="GuardMarauderAttack5000166,GuardMarauderAttack5000167,GuardMarauderAttack5000168,GuardMarauderAttack5000169,GuardMarauderAttack5000170b,GuardMarauderBomb5000171,GuardMarauderBomb5000172b,GuardMarauderBomb5000173b"
-			move="GuardMarauderMove5000174b,GuardMarauderMove5000175,GuardMarauderMove5000176,GuardMarauderMove5000177b,GuardMarauderMove5000178,GuardMarauderMove5000179b"
+			<responses attack="GuardMarauderAttack5000166,GuardMarauderAttack5000167,GuardMarauderAttack5000168,GuardMarauderAttack5000169,GuardMarauderAttack5000170,GuardMarauderBomb5000171,GuardMarauderBomb5000172,GuardMarauderBomb5000173"
+			move="GuardMarauderMove5000174,GuardMarauderMove5000175,GuardMarauderMove5000176,GuardMarauderMove5000177,GuardMarauderMove5000178,GuardMarauderMove5000179"
 			productionCompleted=""
-			select="GuardMarauderSelection5000180,GuardMarauderSelection5000181,GuardMarauderSelection5000182b,GuardMarauderSelection5000183,GuardMarauderUnit_complete5000184"/>
+			select="GuardMarauderSelection5000180,GuardMarauderSelection5000181,GuardMarauderSelection5000182,GuardMarauderSelection5000183,GuardMarauderUnit_complete5000184"/>
 		</MarauderBomber>
 		<PrimarisPsyker>
 			<responses attack="GuardPsykerAttack1000630,GuardPsykerAttack1000631,GuardPsykerAttack1000632,GuardPsykerAttack1000633,GuardPsykerCharge1000730,GuardPsykerCharge1000731"
@@ -99,14 +99,14 @@
 			select="GuardKasrkinSelection1002120,GuardKasrkinSelection1002121,GuardKasrkinSelection1002122,GuardKasrkinSelection1002123,GuardKasrkinSelection1002124"/>
 		</TempestusScion>
 		<Thunderbolt>
-			<responses attack="GuardMarauderAttack5000167,GuardMarauderAttack5000169,GuardMarauderAttack5000170b"
-			move="GuardMarauderMove5000174b,GuardMarauderMove5000175,GuardMarauderMove5000176"
+			<responses attack="GuardMarauderAttack5000167,GuardMarauderAttack5000169,GuardMarauderAttack5000170"
+			move="GuardMarauderMove5000174,GuardMarauderMove5000175,GuardMarauderMove5000176"
 			productionCompleted=""
 			select="GuardMarauderSelection5000181,GuardMarauderSelection5000183"/>
 		</Thunderbolt>
 		<Valkyrie>
-			<responses attack="GuardMarauderAttack5000167,GuardMarauderAttack5000169,GuardMarauderAttack5000170b"
-			move="GuardMarauderMove5000174b,GuardMarauderMove5000175,GuardMarauderMove5000176"
+			<responses attack="GuardMarauderAttack5000167,GuardMarauderAttack5000169,GuardMarauderAttack5000170"
+			move="GuardMarauderMove5000174,GuardMarauderMove5000175,GuardMarauderMove5000176"
 			productionCompleted=""
 			select="GuardMarauderSelection5000181,GuardMarauderSelection5000183"/>
 		</Valkyrie>
@@ -189,10 +189,10 @@
 			select="Chaos_marinesDefilerAttackdefiler_1,Chaos_marinesDefilerAttackdefiler_2"/>
 		</Helbrute>
 		<Heldrake>
-			<responses attack="Chaos_marinesHelltalonAttack5000116b,Chaos_marinesHelltalonAttack5000117,Chaos_marinesHelltalonAttack5000118b,Chaos_marinesHelltalonAttack5000119,Chaos_marinesHelltalonAttack5000120b"
-			move="Chaos_marinesHelltalonMove5000121,Chaos_marinesHelltalonMove5000122,Chaos_marinesHelltalonMove5000123,Chaos_marinesHelltalonMove5000124,Chaos_marinesHelltalonMove5000125,Chaos_marinesHelltalonMove5000126b"
+			<responses attack="Chaos_marinesHelltalonAttack5000116,Chaos_marinesHelltalonAttack5000117,Chaos_marinesHelltalonAttack5000118,Chaos_marinesHelltalonAttack5000119,Chaos_marinesHelltalonAttack5000120"
+			move="Chaos_marinesHelltalonMove5000121,Chaos_marinesHelltalonMove5000122,Chaos_marinesHelltalonMove5000123,Chaos_marinesHelltalonMove5000124,Chaos_marinesHelltalonMove5000125,Chaos_marinesHelltalonMove5000126"
 			productionCompleted=""
-			select="Chaos_marinesHelltalonAttack5000118b,Chaos_marinesHelltalonSelection5000127,Chaos_marinesHelltalonSelection5000128b,Chaos_marinesHelltalonSelection5000129,Chaos_marinesHelltalonSelection5000130,Chaos_marinesHelltalonUnit_complete5000131"/>
+			select="Chaos_marinesHelltalonAttack5000118,Chaos_marinesHelltalonSelection5000127,Chaos_marinesHelltalonSelection5000128,Chaos_marinesHelltalonSelection5000129,Chaos_marinesHelltalonSelection5000130,Chaos_marinesHelltalonUnit_complete5000131"/>
 		</Heldrake>
 		<KhorneBerzerker>
 			<responses attack="Chaos_marinesBerzerkerAttack1003330,Chaos_marinesBerzerkerAttack1003331,Chaos_marinesBerzerkerAttack1003332,Chaos_marinesBerzerkerAttack1003333,Chaos_marinesBerzerkerAttack1003420,Chaos_marinesBerzerkerAttack1003421,Chaos_marinesBerzerkerCapture1003400,Chaos_marinesBerzerkerCharge1003430,Chaos_marinesBerzerkerCharge1003431,Chaos_marinesBerzerkerCharge1003432,Chaos_marinesBerzerkerCombat1003390,Chaos_marinesBerzerkerCombat1003391,Chaos_marinesBerzerkerCombat1003392,Chaos_marinesBerzerkerCombat1003393,Chaos_marinesBerzerkerCombatberzerker_atk_4,Chaos_marinesBerzerkerCombatberzerker_atk1,Chaos_marinesBerzerkerDieberzerker_die_4,Chaos_marinesBerzerkerMorale_restored1003381,Chaos_marinesBerzerkerMorale1003372,Chaos_marinesBerzerkerStrategic_point_capture1003410,Chaos_marinesBerzerkerUnder_fire1003360,Chaos_marinesBerzerkerUnder_fire1003361,Chaos_marinesBerzerkerUnit_complete1003300,Chaos_marinesBerzerkerUnit_complete1003301"
@@ -357,7 +357,7 @@
 			<responses attack="NecronPariahAttackselect_05,NecronPariahChargeselect_19,NecronPariahCombatselect_20"
 			move="NecronPariahMoveselect_25,NecronPariahUnder_fireselect_26,NecronPariahUnit_completeselect_13"
 			productionCompleted=""
-			select="NecronPariahMorale_restoredselect_23,NecronPariahMoraleselect_22,NecronPariahSelectionselectionnew"/>
+			select="NecronPariahMorale_restoredselect_23,NecronPariahMoraleselect_22,NecronPariahSelectionselection"/>
 		</TriarchPraetorian>
 		<TriarchStalker>
 			<responses attack="NecronBuilder_scarabSelectionselection,NecronBuilder_scarabUnit_completeselect_22"
@@ -462,14 +462,14 @@
 			select="OrksSharedMorale_restored405220,OrksSharedMorale_restored405221,OrksSharedMove404854,OrksSharedMove404855,OrksSharedMove404856,OrksSharedSelection404821,OrksSharedSelection404822,OrksSharedSelection404823,OrksSharedSelection404824,OrksSharedSelection404825,OrksSharedSelection404826,OrksSharedSelection404827,OrksSharedUnit_complete404790,OrksSharedUnloadtransport404930"/>
 		</Boy>
 		<BurnaBommer>
-			<responses attack="OrksFightabommaAbility5000137,OrksFightabommaAbility5000139,OrksFightabommaAttack5000132,OrksFightabommaAttack5000133b,OrksFightabommaAttack5000134b,OrksFightabommaAttack5000135b,OrksFightabommaAttack5000136"
-			move="OrksFightabommaAbility5000138,OrksFightabommaMove5000140,OrksFightabommaMove5000141,OrksFightabommaMove5000142b,OrksFightabommaMove5000143,OrksFightabommaMove5000144b"
+			<responses attack="OrksFightabommaAbility5000137,OrksFightabommaAbility5000139,OrksFightabommaAttack5000132,OrksFightabommaAttack5000133,OrksFightabommaAttack5000134,OrksFightabommaAttack5000135,OrksFightabommaAttack5000136"
+			move="OrksFightabommaAbility5000138,OrksFightabommaMove5000140,OrksFightabommaMove5000141,OrksFightabommaMove5000142,OrksFightabommaMove5000143,OrksFightabommaMove5000144"
 			productionCompleted=""
-			select="OrksFightabommaSelection5000145,OrksFightabommaSelection5000146,OrksFightabommaSelection5000147,OrksFightabommaSelection5000148b,OrksFightabommaUnit_complete5000149b"/>
+			select="OrksFightabommaSelection5000145,OrksFightabommaSelection5000146,OrksFightabommaSelection5000147,OrksFightabommaSelection5000148,OrksFightabommaUnit_complete5000149"/>
 		</BurnaBommer>
 		<Dakkajet>
-			<responses attack="OrksFightabommaAttack5000132,OrksFightabommaAttack5000134b,OrksFightabommaAttack5000135b,OrksFightabommaAttack5000136"
-			move="OrksFightabommaMove5000140,OrksFightabommaMove5000141,OrksFightabommaMove5000142b,OrksFightabommaMove5000143,OrksFightabommaMove5000144b"
+			<responses attack="OrksFightabommaAttack5000132,OrksFightabommaAttack5000134,OrksFightabommaAttack5000135,OrksFightabommaAttack5000136"
+			move="OrksFightabommaMove5000140,OrksFightabommaMove5000141,OrksFightabommaMove5000142,OrksFightabommaMove5000143,OrksFightabommaMove5000144"
 			productionCompleted=""
 			select="OrksFightabommaSelection5000146,OrksFightabommaAbility5000137,OrksFightabommaAbility5000138"/>
 		</Dakkajet>
@@ -635,16 +635,16 @@
 			select="Space_marinesScoutSelection405560,Space_marinesScoutSelection405561,Space_marinesScoutSelection405562,Space_marinesScoutSelection405563,Space_marinesScoutSelection405564,Space_marinesScoutSelection405565"/>
 		</ScoutBiker>
 		<StormravenGunship>
-			<responses attack="Space_marinesTempestAttack5000100,Space_marinesTempestAttack5000101,Space_marinesTempestAttack5000102,Space_marinesTempestAttack5000103b"
-			move="Space_marinesTempestMove5000105,Space_marinesTempestMove5000108,Space_marinesTempestMove5000109b"
+			<responses attack="Space_marinesTempestAttack5000100,Space_marinesTempestAttack5000101,Space_marinesTempestAttack5000102,Space_marinesTempestAttack5000103"
+			move="Space_marinesTempestMove5000105,Space_marinesTempestMove5000108,Space_marinesTempestMove5000109"
 			productionCompleted=""
-			select="Space_marinesTempestSelection5000112b"/>
+			select="Space_marinesTempestSelection5000112"/>
 		</StormravenGunship>
 		<StormtalonGunship>
-			<responses attack="Space_marinesTempestAttack5000100,Space_marinesTempestAttack5000101,Space_marinesTempestAttack5000102,Space_marinesTempestAttack5000103b"
-			move="Space_marinesTempestMove5000105,Space_marinesTempestMove5000108,Space_marinesTempestMove5000109b"
+			<responses attack="Space_marinesTempestAttack5000100,Space_marinesTempestAttack5000101,Space_marinesTempestAttack5000102,Space_marinesTempestAttack5000103"
+			move="Space_marinesTempestMove5000105,Space_marinesTempestMove5000108,Space_marinesTempestMove5000109"
 			productionCompleted=""
-			select="Space_marinesTempestSelection5000112b"/>
+			select="Space_marinesTempestSelection5000112"/>
 		</StormtalonGunship>
 		<TacticalSpaceMarine>
 			<responses attack="Space_marinesSharedAttack405831,Space_marinesSharedAttack405832,Space_marinesSharedAttack405833,Space_marinesSharedAttack405834,Space_marinesSharedAttack405835,Space_marinesSharedAttack405836,Space_marinesSharedAttack405837,Space_marinesSharedAttack405838,Space_marinesSharedCharge406270,Space_marinesSharedCharge406271,Space_marinesSharedCharge406272,Space_marinesSharedCombat406250,Space_marinesSharedCombat406251,Space_marinesSharedCombat406252,Space_marinesSharedCombat406253,Space_marinesSharedCombat406254"
@@ -840,136 +840,4 @@
 			select="TauGeneric_vehicleSelection1009680,TauGeneric_vehicleSelection1009681,TauGeneric_vehicleSelection1009682,TauGeneric_vehicleSelection1009683,TauHammer_head_gunshipSelection1010180,TauHammer_head_gunshipSelection1010181,TauSkyrayMove1013660,TauSkyraySelection1013681,TauSkyrayUnit_complete1013810"/>
 		</SunSharkBomber>
 	</Tau>
-	<Tyranids>
-		<Biovore>
-			<responses
-			attack="sporecrawler_attack0,sporecrawler_attack1,sporecrawler_attack2,sporecrawler_attack3,sporecrawler_attack4,sporecrawler_attack5"
-			move="sporecrawler_yes0,sporecrawler_yes1,sporecrawler_yes2,sporecrawler_yes3,sporecrawler_yes4,sporecrawler_yes5,sporecrawler_yes6,sporecrawler_yes7"
-			productionCompleted=""
-			select="sporecrawler_what0,sporecrawler_what1,sporecrawler_what2,sporecrawler_what3,sporecrawler_what4,sporecrawler_what5,sporecrawler_what6,sporecrawler_what7"/>
-		</Biovore>
-		<Carnifex>
-			<responses attack="brutalisk_attack_00,brutalisk_attack_01,brutalisk_attack_02,brutalisk_attack_03,brutalisk_attack_04,brutalisk_attack_05,brutalisk_attack_06,brutalisk_attack_07,brutalisk_attack_08,brutalisk_attack_09"
-			move="brutalisk_yes_00,brutalisk_yes_01,brutalisk_yes_02,brutalisk_yes_03,brutalisk_yes_04,brutalisk_yes_05,brutalisk_yes_06,brutalisk_yes_07,brutalisk_yes_08,brutalisk_yes_09"
-			productionCompleted=""
-			select="brutalisk_roar0,brutalisk_roar1,brutalisk_roar2,brutalisk_what_00,brutalisk_what_01,brutalisk_what_02,brutalisk_what_03,brutalisk_what_04,brutalisk_what_05,brutalisk_what_06,brutalisk_what_07,brutalisk_what_08,brutalisk_what_09"/>
-		</Carnifex>
-		<Doom>
-			<responses attack="zdrdth00,zdrerr00,zdrpss00,zdrpss01,zdrpss02,zdrrdy00"
-			move="zdryes00,zdryes01,zdryes02,zdryes03,zdryes04"
-			productionCompleted=""
-			select="zdrwht00,zdrwht01,zdrwht02,zdrwht03,zdrwht04"/>
-		</Doom>
-		<Exocrine>
-			<responses attack="zgudth00,zgupss00,zgupss01,zgupss02,zgupss03"
-			move="zguyes00,zguyes01,zguyes02,zguyes03"
-			productionCompleted=""
-			select="zgurdy00,zguwht00,zguwht01,zguwht02,zguwht03"/>
-		</Exocrine>
-		<Gargoyle>
-			<responses attack="zavdth00,zavhit00,zavpss00"
-			move="zavwht01,zavyes00,zavyes01"
-			productionCompleted=""
-			select="zavpss01,zavrdy00,zavwht00"/>
-		</Gargoyle>
-		<Haruspex>
-			<responses attack="corruptor_attack0,corruptor_attack1,corruptor_attack2,corruptor_attack3,corruptor_attack4,corruptor_attack5,corruptor_death0"
-			move="corruptor_yes0,corruptor_yes1,corruptor_yes2,corruptor_yes3,corruptor_yes4,corruptor_yes5,corruptor_yes6,corruptor_yes7,corruptor_yes8,corruptor_yes9"
-			productionCompleted=""
-			select="corruptor_death1,corruptor_death2,corruptor_death4,corruptor_death5,corruptor_ready0,corruptor_ready1,corruptor_ready2,corruptor_ready3,corruptor_what0,corruptor_what1,corruptor_what2,corruptor_what3,corruptor_what4,corruptor_what5,corruptor_what6,corruptor_what7,corruptor_what8,corruptor_what9"/>
-		</Haruspex>
-		<Headquarters>
-			<responses attack=""
-			move=""
-			productionCompleted=""
-			select="zbldgdth,zcbwht00,zchrdy00,zchwht00,zevwht00,zfcwht00,zhawht00,zhiwht00,zigwht00,zlrwht00,zluwht00,zmcwht00,zmhwht00,znewht00,znywht00,zrcwht00,zsbwht00,zscwht00"/>
-		</Headquarters>
-		<HiveCrone>
-			<responses attack="zqupss02,zqupss03,zquwht03,zquyes00,zquyes02,zquyes03"
-			move="zqupss00,zquwht02,zqudth01"
-			productionCompleted=""
-			select="zqudth00,zqudth02,zqupss01,zqurdy00,zquwht00,zquwht01,zquyes01"/>
-		</HiveCrone>
-		<HiveTyrant>
-			<responses attack="zmudth00,zmuyes00,zmuyes01,zmuyes02,zmuyes03"
-			move="zmupss01,zmupss03,zmuwht00,zmuwht03"
-			productionCompleted=""
-			select="zmupss00,zmupss02,zmurdy00,zmuwht01,zmuwht02"/>
-		</HiveTyrant>
-		<Hormagaunt>
-			<responses attack="zzeyes02,zzepss02,zzerdy00,zzepss00"
-			move="zzeyes00,zzeyes01,zzeyes03,zzewht02"
-			productionCompleted=""
-			select="zzewht00,zzepss01,zzewht01,zzewht03"/>
-		</Hormagaunt>
-		<Lictor>
-			<responses attack="hydralisk_attack0,hydralisk_attack1,hydralisk_attack2,hydralisk_attack3,hydralisk_attack5,hydralisk_attack5,zhypss00,zhyyes00,zhyyes01,zhyyes02,zhyyes03"
-			move="hydralisk_yes0,hydralisk_yes1,hydralisk_yes2,hydralisk_yes3,hydralisk_yes4,hydralisk_yes5,hydralisk_yes6,hydralisk_yes7"
-			productionCompleted=""
-			select="hydralisk_ready0,hydralisk_ready1,hydralisk_ready2,hydralisk_ready3,hydralisk_what0,hydralisk_what1,hydralisk_what2,hydralisk_what3,hydralisk_what4,hydralisk_what5,zhydth00,zhypss01,zhyrdy00,zhywht00,zhywht01,zhywht02"/>
-		</Lictor>
-		<Malanthrope>
-			<responses attack="firesuck,ZDvDth00,ZDvYes01,ZDvYes02,ZDvYes03"
-			move="ZDvPss00,ZDvPss01,ZDvPss02,ZDvRdy00,ZDvYes00"
-			productionCompleted=""
-			select="Goophit,ZDvWht00,ZDvWht01,ZDvWht02"/>
-		</Malanthrope>
-		<Ravener>
-			<responses attack="zbratt00,zbrdth00,zbrrdy00,zbrpss02,zbrpss03"
-			move="zbryes00,zbryes01,zbryes02,zbryes03"
-			productionCompleted=""
-			select="zbrpss00,zbrpss01,zbrwht00,zbrwht01,zbrwht02,zbrwht03"/>
-		</Ravener>
-		<SporeMine>
-			<responses attack="changeling_yes0,changeling_yes1,changeling_yes2,changeling_yes3,changeling_yes4,changeling_yes5,changeling_yes6,changeling_yes7,changeling_yes8,changeling_yes9"
-			move="changeling_ready0,changeling_what0,changeling_what1,changeling_what2,changeling_what3,changeling_what4,changeling_what5,changeling_what6,changeling_what7,changeling_what8,changeling_what9"
-			productionCompleted=""
-			select="changeling_ready0,changeling_what0,changeling_what1,changeling_what2,changeling_what3,changeling_what4,changeling_what5,changeling_what6,changeling_what7,changeling_what8,changeling_what9"/>
-		</SporeMine>
-		<Termagant>
-			<responses attack="zzeyes02,zzepss02,zzerdy00,zzepss00"
-			move="zzeyes00,zzeyes01,zzeyes03,zzewht02"
-			productionCompleted=""
-			select="zzewht00,zzepss01,zzewht01,zzewht03"/>
-		</Termagant>
-		<Tervigon>
-			<responses attack="broodlord_attack0,broodlord_attack1,broodlord_attack2,broodlord_attack3,broodlord_attack4,broodlord_attack5,broodlord_attack6,broodlord_attack7,broodlord_attack8,broodlord_attack9"
-			move="broodlord_yes0,broodlord_yes1,broodlord_yes2,broodlord_yes3,broodlord_yes4,broodlord_yes5,broodlord_yes6,broodlord_yes7,broodlord_yes8,broodlord_yes9"
-			productionCompleted=""
-			select="broodlord_ready0,broodlord_ready1,broodlord_ready2,broodlord_what0,broodlord_what1,broodlord_what2,broodlord_what3,broodlord_what4,broodlord_what5,broodlord_what6,broodlord_what7,broodlord_what8,broodlord_what9"/>
-		</Tervigon>
-		<Trygon>
-			<responses attack="ultralisk_attack0,ultralisk_attack1,ultralisk_attack2,ultralisk_attack3,ultralisk_attack4,ultralisk_roar0"
-			move="ultralisk_yes0,ultralisk_yes1,ultralisk_yes2,ultralisk_yes3,ultralisk_yes4"
-			productionCompleted=""
-			select="ultralisk_ready0,ultralisk_ready1,ultralisk_ready2,ultralisk_what0,ultralisk_what1,ultralisk_what2,ultralisk_what3,ultralisk_what4,ultralisk_what5"/>
-		</Trygon>
-		<Tunnel>
-			<responses attack="" move="" productionCompleted="" select="ZLUBURRW"/>
-		</Tunnel>
-		<TyranidPrime>
-			<responses attack="zulatt00,zulatt01,zulatt02,zulpss00,zulrdy00,zulror00"
-			move="zulpss01,zulpss02,zulyes00,zulyes01,zulyes02,zulyes03"
-			productionCompleted=""
-			select="zulwht00,zulwht01,zulwht02,zulwht03"/>
-		</TyranidPrime>
-		<Tyrannofex>
-			<responses attack="baneling_attack0,baneling_attack1,baneling_attack2,baneling_attack3,baneling_attack4,baneling_attack5,baneling_attack6,baneling_attack7,baneling_attack8,baneling_attack9"
-			move="baneling_yes0,baneling_yes1,baneling_yes2,baneling_yes3,baneling_yes4,baneling_yes5,baneling_yes6,baneling_yes7,baneling_yes8,baneling_yes9"
-			productionCompleted=""
-			select="baneling_ready0,baneling_ready1,baneling_ready2,baneling_what0,baneling_what1,baneling_what2,baneling_what3,baneling_what4,baneling_what5"/>
-		</Tyrannofex>
-		<Warrior>
-			<responses attack="swarmhost_attack_00,swarmhost_attack_01,swarmhost_attack_02,swarmhost_attack_03,swarmhost_attack_04,swarmhost_attack_05,swarmhost_attack_06,swarmhost_attack_07,swarmhost_attack_08"
-			move="swarmhost_yes_00,swarmhost_yes_01,swarmhost_yes_02,swarmhost_yes_03,swarmhost_yes_04,swarmhost_yes_05,swarmhost_yes_06,swarmhost_yes_07,swarmhost_yes_08"
-			productionCompleted=""
-			select="swarmhost_ready_00,swarmhost_ready_01,swarmhost_ready_02,swarmhost_what_00,swarmhost_what_01,swarmhost_what_02,swarmhost_what_04,swarmhost_what_05,swarmhost_what_06,swarmhost_what_07,swarmhost_what_08,swarmhost_what_09"/>
-		</Warrior>
-		<Zoanthrope>
-			<responses attack="zdrdth00,zdrerr00,zdrpss00,zdrpss01,zdrpss02,zdrrdy00"
-			move="zdryes00,zdryes01,zdryes02,zdryes03,zdryes04"
-			productionCompleted=""
-			select="zdrwht00,zdrwht01,zdrwht02,zdrwht03,zdrwht04"/>
-		</Zoanthrope>
-	</Tyranids>
 </config>
