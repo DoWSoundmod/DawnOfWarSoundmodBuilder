@@ -31,7 +31,8 @@ currentAction = None
 
 BASEDIRECTORY_XML = "Data/World/Units"
 BASEDIRECTORY_WAV = "Data/Audio/Sounds/Cached/Units/DoWSounds"
-DESTINATION_MIXER = "output/Data/Audio/Mixer.xml"
+DESTINATION_MIXER = "output/Data/Audio/Blueprints"
+MIXER_NAME = "Mixer.xml.ext"
 
 global CUSTOM_GAIN_FACTIONS
 CUSTOM_GAIN_FACTIONS= ['Tyranids', 'Necrons']
@@ -171,13 +172,13 @@ def setupSuccesfull():
         print("Error! Failed to set up %s" %OUTPUT_MOD)
         setupSuccessfull = False
 
-    if len(os.listdir(INPUT_WAV)) is 0:
+    if len(os.listdir(INPUT_WAV)) == 0:
         print("Error! No Files in %s found" %INPUT_WAV)
         setupSuccessfull = False
-    if len(os.listdir(INPUT_XML)) is 0:
+    if len(os.listdir(INPUT_XML)) == 0:
         print("Error! No Files in %s found" %INPUT_XML)
         setupSuccessfull = False
-    if len(os.listdir(OUTPUT_MOD)) is not 0:
+    if len(os.listdir(OUTPUT_MOD)) != 0:
         print("Warning, %s not empty" %OUTPUT_MOD)          
     createMixerXmlTree()       
     return setupSuccessfull
@@ -295,8 +296,11 @@ def processUnit(faction, unit):
             path = "output"+"/"+generatePath(BASEDIRECTORY_XML, faction.tag)
             if not os.path.exists(path):
                 os.makedirs(path)
+
+            origXML = ET.ElementTree()
+            origXML._setroot(ET.Element('unit'))
             origXML.getroot().append(responsesNode)
-            origXML.write("output/"+pathForXML+".xml",encoding='utf-8', xml_declaration=True)
+            origXML.write("output/"+pathForXML+".xml.ext",encoding='utf-8', xml_declaration=True)
 
             completedUnits=completedUnits+1
     else:
@@ -315,11 +319,13 @@ def createMixer_XML():
     xmlstr = ET.tostring(tree, encoding='utf8', method='xml')
     xml = XML.parseString(xmlstr)
     xml_pretty_str = xml.toprettyxml()
-    xmlConfig = open(DESTINATION_MIXER, "w")
+    if not os.path.exists(DESTINATION_MIXER):
+        os.makedirs(DESTINATION_MIXER)
+    xmlConfig = open(DESTINATION_MIXER+"/"+MIXER_NAME, "w")
     xmlConfig.write(xml_pretty_str)
     xmlConfig.close()
 
-
+print("### Executing Soundmodbuilder v1.2 ###")
 if setupSuccesfull():
     processSoundConfig()
     createMixer_XML()

@@ -22,6 +22,12 @@
 			productionCompleted=""
 			select="GuardOgrynSelection1001810,GuardOgrynSelection1001811,GuardOgrynSelection1001812,GuardOgrynSelection1001813,GuardOgrynSelection1001814"/>
 		</Bullgryn>
+		<Chimera>
+			<responses attack="GuardChimeraAttack1002520,GuardChimeraAttack1002521,GuardChimeraAttack1002522,GuardChimeraAttack1002523,GuardChimeraAttack1002630,GuardChimeraAttack1002631"
+			move="GuardChimeraMove1002510,GuardChimeraMove1002511,GuardChimeraMove1002512,GuardChimeraMove1002513,GuardChimeraMove1002620,GuardChimeraMove1002621"
+			productionCompleted=""
+			select="GuardChimeraSelection1002500,GuardChimeraSelection1002501,GuardChimeraSelection1002502,GuardChimeraSelection1002503,GuardChimeraSelection1002610,GuardChimeraSelection1002611,GuardChimeraUnit_complete1002600"/>
+		</Chimera>
 		<Guardsman>
 			<responses attack="GuardSharedAttack1001221,GuardSharedAttack1001220,GuardSharedAttack1001134,GuardSharedAttack1001133,GuardSharedAttack1001132,GuardSharedAttack1001131,GuardSharedAttack1001130,GuardSharedCombat1001192,GuardSharedCombat1001193"
 			move="GuardSharedMove1001120,GuardSharedMove1001121,GuardSharedMove1001122,GuardSharedMove1001123,GuardSharedMove1001124"
@@ -131,6 +137,12 @@
 			productionCompleted=""
 			select="Chaos_marinesCultistCapture401611,Chaos_marinesCultistMorale_restored401642,Chaos_marinesCultistMove401525,Chaos_marinesCultistSelection401510,Chaos_marinesCultistSelection401511,Chaos_marinesCultistSelection401512,Chaos_marinesCultistSelection401513,Chaos_marinesCultistSelection401514,Chaos_marinesCultistSelection401516,Chaos_marinesCultistSelection401517,Chaos_marinesCultistStrategic_point_capture401620,Chaos_marinesCultistUnit_complete401500,Chaos_marinesCultistUnloadtransport401550"/>
 		</ChaosCultist>
+		<ChaosLandRaider>
+			<responses attack="Chaos_marinesTanksAttack400886,Chaos_marinesTanksAttack400887,Chaos_marinesTanksAttack400888,Chaos_marinesPredatorMove400858,Chaos_marinesPredatorMove400860"
+			move="Chaos_marinesPredatorMove400858,Chaos_marinesPredatorMove400859,Chaos_marinesPredatorMove400861,Chaos_marinesPredatorMove400862,Chaos_marinesRhinoMove400855,Chaos_marinesRhinoMove400856,Chaos_marinesRhinoMove400857"
+			productionCompleted=""
+			select="Chaos_marinesPredatorSelection400829,Chaos_marinesPredatorSelection400830,Chaos_marinesPredatorSelection400831,Chaos_marinesPredatorSelection400832,Chaos_marinesRhinoSelection400826,Chaos_marinesRhinoSelection400827,Chaos_marinesRhinoSelection400828"/>
+		</ChaosLandRaider>
 		<ChaosLord>
 			<responses attack="Chaos_marinesLordAttack400520,Chaos_marinesLordAttack400521,Chaos_marinesLordAttack400522,Chaos_marinesLordCharge400740,Chaos_marinesLordCharge400741,Chaos_marinesLordCharge400742,Chaos_marinesLordCombat400730,Chaos_marinesLordCombat400733,Chaos_marinesLordCombat400734,Chaos_marinesLordCombat400735,Chaos_marinesLordCombat400737,Chaos_marinesLordJoin400590,Chaos_marinesLordMorale_restored400720,Chaos_marinesLordSpottingChaos_marine400630,Chaos_marinesLordSpottingEnemy400610,Chaos_marinesLordSpottingEnemy400611,Chaos_marinesLordSpottingEnemy400612"
 			move="Chaos_marinesLordMove400510,Chaos_marinesLordMove400511,Chaos_marinesLordMove400512,Chaos_marinesLordMove400513,Chaos_marinesLordMove400514,Chaos_marinesLordMove400515,Chaos_marinesLordUnder_fire400670"
@@ -290,6 +302,12 @@
 			productionCompleted=""
 			select="NecronDestroyerLoadtransportselect_34,NecronDestroyerMorale_restoredselect_43,NecronDestroyerSelectionselection,NecronDestroyerUnloadtransportselect_34"/>
 		</DoomsdayArk>
+		<FlayedOne>
+			<responses attack="NecronFlayed_oneAttackselect_02,NecronFlayed_oneSelectionselection"
+			move="NecronFlayed_oneLoadtransportselect_34,NecronFlayed_oneMorale_restoredselect_27,NecronFlayed_oneUnder_fireselect_50"
+			productionCompleted=""
+			select="NecronFlayed_oneChargeselect_02_2,NecronFlayed_oneCombatselect_22,NecronFlayed_oneLoadtransportselect_34,NecronFlayed_oneSelectionselection,NecronFlayed_oneUnit_completeselect_40"/>
+		</FlayedOne>
 		<GaussPylon>
 			<responses attack=""
 			move=""
@@ -542,6 +560,12 @@
 			productionCompleted=""
 			select="OrksWarbossDetach406385,OrksWarbossJoin406383,OrksWarbossMorale_restored406401,OrksWarbossSelection406290,OrksWarbossSelection406291,OrksWarbossSelection406292,OrksWarbossSelection406293,OrksWarbossSelection406294,OrksWarbossSelection406295,OrksWarbossSelection406296,OrksWarbossSelection406297,OrksWarbossSpottingDaemon406395,OrksWarbossUnder_fire406393,OrksWarbossUnit_complete406280"/>
 		</Warboss>
+		<Warbiker>
+			<responses attack="OrksWartrakAbilityTurbo_boost405502,OrksLooted_lemanAttackground405500,OrksLooted_lemanAttackground405501,OrksTanksAttack405460,OrksTanksAttack405461,OrksTanksAttack405463"
+			move="OrksWartrakSelection405431,OrksTanksMove405450,OrksTanksMove405451,OrksTanksMove405452,OrksTanksMove405453"
+			productionCompleted=""
+			select="OrksWartrakSelection405430,OrksWartrakSelection405431,OrksWartrakUnit_complete405400,OrksTanksAttack405462"/>
+		</Warbiker>
 		<Warbuggy>
 			<responses attack="OrksTanksAttack405460,OrksTanksAttack405461,OrksTanksAttack405462,OrksTanksAttack405463"
 			move="OrksTanksMove405450,OrksTanksMove405451,OrksTanksMove405452,OrksTanksMove405453"
@@ -628,6 +652,12 @@
 			productionCompleted=""
 			select="Space_marinesPredatorSelection404561,Space_marinesPredatorSelection404561"/>
 		</Predator>
+		<Razorback>
+			<responses attack="Space_marinesTanksAttack404720,Space_marinesTanksAttack404722,Space_marinesTanksMove404705,Space_marinesWhirlwindAttack404712"
+			move="Space_marinesRhinoMove404693,Space_marinesTanksMove404700,Space_marinesTanksMove404701,Space_marinesTanksMove404702,Space_marinesTanksMove404703,Space_marinesTanksMove404704"
+			productionCompleted=""
+			select="Space_marinesLand_raiderAbilityMachine_spirit404780,Space_marinesRhinoMove404690,Space_marinesRhinoMove404691,Space_marinesRhinoMove404692,Space_marinesTanksAttack404721,Space_marinesTanksMove404703"/>
+		</Razorback>
 		<ScoutBiker>
 			<responses attack="Space_marinesScoutAttack405580,Space_marinesScoutAttack405581,Space_marinesScoutAttack405582,Space_marinesScoutAttack405583,Space_marinesScoutAttack405584,Space_marinesScoutCharge405710,Space_marinesScoutCharge405711,Space_marinesScoutCharge405712"
 			move="Space_marinesScoutMove405570,Space_marinesScoutMove405571,Space_marinesScoutMove405573,Space_marinesScoutMove405574,Space_marinesScoutMove405575,Space_marinesScoutMove405576,Space_marinesScoutMove405577,Space_marinesScoutMove405578"
@@ -839,6 +869,12 @@
 			productionCompleted=""
 			select="TauGeneric_vehicleSelection1009680,TauGeneric_vehicleSelection1009681,TauGeneric_vehicleSelection1009682,TauGeneric_vehicleSelection1009683,TauHammer_head_gunshipSelection1010180,TauHammer_head_gunshipSelection1010181,TauSkyrayMove1013660,TauSkyraySelection1013681,TauSkyrayUnit_complete1013810"/>
 		</SunSharkBomber>
+		<TidewallGunrig>
+			<responses attack="TauGeneric_vehicleAttack1009530,TauGeneric_vehicleAttack1009531,TauGeneric_vehicleAttack1009532,TauGeneric_vehicleAttack1009533"
+			move="TauGeneric_vehicleMove1009660,TauGeneric_vehicleMove1009661,TauGeneric_vehicleMove1009662,TauGeneric_vehicleMove1009663"
+			productionCompleted=""
+			select="TauGeneric_vehicleSelection1009680,TauGeneric_vehicleSelection1009681,TauGeneric_vehicleSelection1009682,TauGeneric_vehicleSelection1009683"/>
+		</TidewallGunrig>
 	</Tau>
 	<Tyranids>
 		<Biovore>
@@ -920,6 +956,12 @@
 			productionCompleted=""
 			select="zbrpss00,zbrpss01,zbrwht00,zbrwht01,zbrwht02,zbrwht03"/>
 		</Ravener>
+		<ScythedHierodule>
+			<responses attack="ultralisk_attack0,ultralisk_attack1,ultralisk_attack2,ultralisk_attack3,ultralisk_attack4,ultralisk_roar0"
+			move="ultralisk_yes0,ultralisk_yes1,ultralisk_yes2,ultralisk_yes3,ultralisk_yes4"
+			productionCompleted=""
+			select="ultralisk_ready0,ultralisk_ready1,ultralisk_ready2,ultralisk_what0,ultralisk_what1,ultralisk_what2,ultralisk_what3,ultralisk_what4,ultralisk_what5"/>
+		</ScythedHierodule>
 		<SporeMine>
 			<responses attack="changeling_yes0,changeling_yes1,changeling_yes2,changeling_yes3,changeling_yes4,changeling_yes5,changeling_yes6,changeling_yes7,changeling_yes8,changeling_yes9"
 			move="changeling_ready0,changeling_what0,changeling_what1,changeling_what2,changeling_what3,changeling_what4,changeling_what5,changeling_what6,changeling_what7,changeling_what8,changeling_what9"
