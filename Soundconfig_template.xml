@@ -1,5 +1,70 @@
 <?xml version="1.0" ?>
 <config>
+	<AdeptusMechanicus>
+		<ArchaeopterStratoraptor>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</ArchaeopterStratoraptor>
+		<ArchaeopterTransvector>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</ArchaeopterTransvector>
+		<CyberneticaDatasmith>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</CyberneticaDatasmith>
+		<FulguriteElectroPriest>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</FulguriteElectroPriest>
+		<Headquarters>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Headquarters>
+		<IronstriderBallistarius>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</IronstriderBallistarius>
+		<KataphronBreacher>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</KataphronBreacher>
+		<KataphronDestroyer>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</KataphronDestroyer>
+		<KnightCrusader>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</KnightCrusader>
+		<OnagerDunecrawler>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</OnagerDunecrawler>
+		<PteraxiiSterylizor>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</PteraxiiSterylizor>
+		<SerberysSulphurhound>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</SerberysSulphurhound>
+		<SicarianInfiltrator>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</SicarianInfiltrator>
+		<SkitariiMarshal>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</SkitariiMarshal>
+		<SkitariiRanger>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</SkitariiRanger>
+		<SkitariiVanguard>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</SkitariiVanguard>
+		<SkorpiusDisintegrator>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</SkorpiusDisintegrator>
+		<SkorpiusDunerider>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</SkorpiusDunerider>
+		<SydonianDragoon>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</SydonianDragoon>
+		<TechPriestDominus>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</TechPriestDominus>
+		<TechPriestManipulus>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</TechPriestManipulus>
+	</AdeptusMechanicus>
 	<AstraMilitarum>
 		<Baneblade>
 			<responses attack="" move="" productionCompleted="" select=""/>
@@ -10,6 +75,15 @@
 		<Bullgryn>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</Bullgryn>
+		<Chimera>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Chimera>
+		<DevilDog>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</DevilDog>
+		<FieldOrdnanceBattery>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</FieldOrdnanceBattery>
 		<Guardsman>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</Guardsman>
@@ -37,6 +111,12 @@
 		<PrimarisPsyker>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</PrimarisPsyker>
+		<Ratling>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Ratling>
+		<RogalDornBattleTank>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</RogalDornBattleTank>
 		<ScoutSentinel>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</ScoutSentinel>
@@ -55,6 +135,9 @@
 		<Valkyrie>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</Valkyrie>
+		<VoidShieldGenerator>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</VoidShieldGenerator>
 		<WyrdvanePsyker>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</WyrdvanePsyker>
@@ -63,7 +146,215 @@
 		<ChaosCultist>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</ChaosCultist>
+		<ChaosLandRaider>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</ChaosLandRaider>
+		<ChaosLord>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</ChaosLord>
+		<ChaosRhino>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</ChaosRhino>
+		<ChaosSpaceMarine>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</ChaosSpaceMarine>
+		<ChaosSpawn>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</ChaosSpawn>
+		<ChaosTerminator>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</ChaosTerminator>
+		<DaemonPrince>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</DaemonPrince>
+		<DarkDisciple>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</DarkDisciple>
+		<Defiler>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Defiler>
+		<Forgefiend>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Forgefiend>
+		<GreaterBrassScorpionOfKhorne>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</GreaterBrassScorpionOfKhorne>
+		<Havoc>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Havoc>
+		<Headquarters>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Headquarters>
+		<Helbrute>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Helbrute>
+		<Heldrake>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Heldrake>
+		<KhorneBerzerker>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</KhorneBerzerker>
+		<MasterOfPossession>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</MasterOfPossession>
+		<Maulerfiend>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Maulerfiend>
+		<NoctilithCrown>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</NoctilithCrown>
+		<Obliterator>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Obliterator>
+		<Venomcrawler>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Venomcrawler>
+		<Warpsmith>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Warpsmith>
+		<WarpTalon>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</WarpTalon>
 	</ChaosSpaceMarines>
+	<Drukhari>
+		<Archon>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Archon>
+		<Cronos>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Cronos>
+		<Haemonculus>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Haemonculus>
+		<Headquarters>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Headquarters>
+		<Hellion>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Hellion>
+		<Incubi>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Incubi>
+		<KabaliteTrueborn>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</KabaliteTrueborn>
+		<KabaliteWarrior>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</KabaliteWarrior>
+		<Raider>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Raider>
+		<Ravager>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Ravager>
+		<RazorwingJetfighter>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</RazorwingJetfighter>
+		<Reaver>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Reaver>
+		<Scourge>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Scourge>
+		<Succubus>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Succubus>
+		<Talos>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Talos>
+		<Tantalus>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Tantalus>
+		<Venom>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Venom>
+		<VoidravenBomber>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</VoidravenBomber>
+		<WebwayPortal>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</WebwayPortal>
+		<Wrack>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Wrack>
+		<Wyche>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Wyche>
+	</Drukhari>
+	<Eldar>
+		<Autarch>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Autarch>
+		<AvatarOfKhaine>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</AvatarOfKhaine>
+		<CrimsonHunter>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</CrimsonHunter>
+		<DarkReaper>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</DarkReaper>
+		<FarseerSkyrunner>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</FarseerSkyrunner>
+		<FireDragon>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</FireDragon>
+		<FirePrism>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</FirePrism>
+		<Guardian>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Guardian>
+		<Headquarters>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Headquarters>
+		<HemlockWraithfighter>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</HemlockWraithfighter>
+		<Hornet>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Hornet>
+		<HowlingBanshee>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</HowlingBanshee>
+		<Ranger>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Ranger>
+		<Scorpion>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Scorpion>
+		<ShiningSpear>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</ShiningSpear>
+		<Spiritseer>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Spiritseer>
+		<VaulsWrathSupportBattery>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</VaulsWrathSupportBattery>
+		<Warlock>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Warlock>
+		<WarWalker>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</WarWalker>
+		<WaveSerpent>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</WaveSerpent>
+		<WebwayGate>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</WebwayGate>
+		<Wraithblade>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Wraithblade>
+		<Wraithknight>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Wraithknight>
+		<Wraithlord>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Wraithlord>
+	</Eldar>
 	<Necrons>
 		<AnnihilationBarge>
 			<responses attack="" move="" productionCompleted="" select=""/>
@@ -74,9 +365,15 @@
 		<CanoptekSpyder>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</CanoptekSpyder>
+		<CanoptekWraith>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</CanoptekWraith>
 		<Cryptek>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</Cryptek>
+		<Deathmark>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Deathmark>
 		<DestroyerLord>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</DestroyerLord>
@@ -86,6 +383,15 @@
 		<DoomsdayArk>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</DoomsdayArk>
+		<FlayedOne>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</FlayedOne>
+		<GaussPylon>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</GaussPylon>
+		<GhostArk>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</GhostArk>
 		<Headquarters>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</Headquarters>
@@ -107,6 +413,9 @@
 		<Obelisk>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</Obelisk>
+		<SkorpekhDestroyer>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</SkorpekhDestroyer>
 		<TesseractVault>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</TesseractVault>
@@ -151,12 +460,21 @@
 		<NeophyteHybrid>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</NeophyteHybrid>
+		<Poxwalker>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Poxwalker>
 		<Psychneuein>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</Psychneuein>
 		<TechpriestBetrayer>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</TechpriestBetrayer>
+		<Umbra>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Umbra>
+		<VespidStingwing>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</VespidStingwing>
 	</Neutral>
 	<Artefacts>
 		<AncientExterminatusDevice>
@@ -191,15 +509,24 @@
 		<Battlewagon>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</Battlewagon>
+		<BigMek>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</BigMek>
 		<Boy>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</Boy>
 		<BurnaBommer>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</BurnaBommer>
+		<BurnaBoy>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</BurnaBoy>
 		<Dakkajet>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</Dakkajet>
+		<DeffDread>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</DeffDread>
 		<Deffkopta>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</Deffkopta>
@@ -218,9 +545,15 @@
 		<KillaKan>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</KillaKan>
+		<KillBursta>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</KillBursta>
 		<Meganob>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</Meganob>
+		<MegatrakkScrapjet>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</MegatrakkScrapjet>
 		<Mek>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</Mek>
@@ -233,6 +566,9 @@
 		<Tankbusta>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</Tankbusta>
+		<Warbiker>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Warbiker>
 		<Warboss>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</Warboss>
@@ -243,19 +579,96 @@
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</Weirdboy>
 	</Orks>
+	<SistersOfBattle>
+		<ArcoFlagellant>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</ArcoFlagellant>
+		<AvengerStrikeFighter>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</AvengerStrikeFighter>
+		<BattleSister>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</BattleSister>
+		<Canoness>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Canoness>
+		<Castigator>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Castigator>
+		<CelestianSacresant>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</CelestianSacresant>
+		<CerastusKnightLancer>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</CerastusKnightLancer>
+		<Dialogus>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Dialogus>
+		<Dominion>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Dominion>
+		<Enclave>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Enclave>
+		<Exorcist>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Exorcist>
+		<Headquarters>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Headquarters>
+		<Hospitaller>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Hospitaller>
+		<Imagifier>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Imagifier>
+		<Immolator>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Immolator>
+		<LightningFighter>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</LightningFighter>
+		<Mortifier>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Mortifier>
+		<ParagonWarsuit>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</ParagonWarsuit>
+		<Retributor>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Retributor>
+		<SaintCelestine>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</SaintCelestine>
+		<SisterRepentia>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</SisterRepentia>
+		<Zephyrim>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Zephyrim>
+	</SistersOfBattle>
 	<SpaceMarines>
 		<Apothecary>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</Apothecary>
+		<AquilaMacroCannon>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</AquilaMacroCannon>
 		<AssaultSpaceMarine>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</AssaultSpaceMarine>
+		<AssaultTerminator>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</AssaultTerminator>
 		<Captain>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</Captain>
 		<Chaplain>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</Chaplain>
+		<DevastatorCenturion>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</DevastatorCenturion>
 		<DevastatorSpaceMarine>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</DevastatorSpaceMarine>
@@ -283,12 +696,42 @@
 		<Predator>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</Predator>
+		<PrimarisAggressor>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</PrimarisAggressor>
+		<PrimarisHellblaster>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</PrimarisHellblaster>
+		<PrimarisInceptor>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</PrimarisInceptor>
+		<PrimarisIntercessor>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</PrimarisIntercessor>
+		<PrimarisInvaderATV>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</PrimarisInvaderATV>
+		<PrimarisRepulsorExecutioner>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</PrimarisRepulsorExecutioner>
+		<Razorback>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Razorback>
+		<RedemptorDreadnought>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</RedemptorDreadnought>
+		<Scout>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Scout>
 		<ScoutBiker>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</ScoutBiker>
 		<StormravenGunship>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</StormravenGunship>
+		<StormSpeederThunderstrike>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</StormSpeederThunderstrike>
 		<StormtalonGunship>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</StormtalonGunship>
@@ -304,8 +747,115 @@
 		<Vindicator>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</Vindicator>
+		<Whirlwind>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Whirlwind>
 	</SpaceMarines>
+	<Tau>
+		<BroadsideBattlesuit>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</BroadsideBattlesuit>
+		<BuilderDrone>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</BuilderDrone>
+		<CadreFireblade>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</CadreFireblade>
+		<Commander>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Commander>
+		<CrisisBattlesuit>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</CrisisBattlesuit>
+		<Devilfish>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Devilfish>
+		<Ethereal>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Ethereal>
+		<FireWarrior>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</FireWarrior>
+		<FireWarriorBreacher>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</FireWarriorBreacher>
+		<GhostkeelBattlesuit>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</GhostkeelBattlesuit>
+		<GravInhibitorDrone>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</GravInhibitorDrone>
+		<GunDrone>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</GunDrone>
+		<HammerheadGunship>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</HammerheadGunship>
+		<Headquarters>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Headquarters>
+		<InterceptorDrone>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</InterceptorDrone>
+		<KrootoxRider>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</KrootoxRider>
+		<MarkerDrone>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</MarkerDrone>
+		<Pathfinder>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Pathfinder>
+		<Piranha>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Piranha>
+		<PulseAcceleratorDrone>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</PulseAcceleratorDrone>
+		<RazorsharkStrikeFighter>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</RazorsharkStrikeFighter>
+		<ReconDrone>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</ReconDrone>
+		<RiptideBattlesuit>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</RiptideBattlesuit>
+		<RVarnaBattlesuit>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</RVarnaBattlesuit>
+		<ShieldDrone>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</ShieldDrone>
+		<ShieldedMissileDrone>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</ShieldedMissileDrone>
+		<SkyRayGunship>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</SkyRayGunship>
+		<StealthBattlesuit>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</StealthBattlesuit>
+		<StealthDrone>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</StealthDrone>
+		<Stormsurge>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Stormsurge>
+		<SunSharkBomber>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</SunSharkBomber>
+		<TidewallGunrig>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</TidewallGunrig>
+		<TigerShark>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</TigerShark>
+	</Tau>
 	<Tyranids>
+		<Biovore>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Biovore>
 		<Carnifex>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</Carnifex>
@@ -327,6 +877,9 @@
 		<HiveCrone>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</HiveCrone>
+		<HiveGuard>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</HiveGuard>
 		<HiveTyrant>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</HiveTyrant>
@@ -339,9 +892,18 @@
 		<Malanthrope>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</Malanthrope>
+		<Maleceptor>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Maleceptor>
 		<Ravener>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</Ravener>
+		<ScythedHierodule>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</ScythedHierodule>
+		<SporeMine>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</SporeMine>
 		<Termagant>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</Termagant>
@@ -357,9 +919,15 @@
 		<TyranidPrime>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</TyranidPrime>
+		<Tyrannocyte>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Tyrannocyte>
 		<Tyrannofex>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</Tyrannofex>
+		<Venomthrope>
+			<responses attack="" move="" productionCompleted="" select=""/>
+		</Venomthrope>
 		<Warrior>
 			<responses attack="" move="" productionCompleted="" select=""/>
 		</Warrior>
